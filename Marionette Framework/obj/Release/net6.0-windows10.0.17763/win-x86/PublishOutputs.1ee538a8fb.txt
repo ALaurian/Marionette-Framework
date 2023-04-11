@@ -1,0 +1,2 @@
+C:\Users\lauri\RiderProjects\Marionette Framework\Marionette Framework\bin\Release\test2\Marionette Framework.pdb
+C:\Users\lauri\RiderProjects\Marionette Framework\Marionette Framework\bin\Release\test2\Marionette Framework.exe
