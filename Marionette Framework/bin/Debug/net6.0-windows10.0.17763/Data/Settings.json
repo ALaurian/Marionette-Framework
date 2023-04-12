@@ -1,7 +1,0 @@
-﻿{
-  "databaseName": "mydb",
-  "username": "user",
-  "password": "pass",
-  "assetTableName": "Assets",
-  "transactionDataType": "QueueItem"
-}
