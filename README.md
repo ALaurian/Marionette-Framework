@@ -81,3 +81,24 @@ In summary, the `Main` function provides a modular and scalable workflow for pro
 The use of goto statements in the code is not a recommended coding practice as it can make the code difficult to understand and maintain. However, in this particular case, the goto statements were used to replicate a state machine.
 The UiPath ReFramework is based on a state machine design pattern, which involves transitioning between different states based on input and output events. The use of goto statements was a deliberate choice to mimic this state machine design pattern in C# code.
 
+## How to get started with the Marionette Framework
+
+To get started with the Marionette Framework, follow these steps:
+
+1. Clone or download the C#.NET port of the UiPath ReFramework from the repository.
+
+2. Open the solution file in your preferred IDE.
+
+3. In the `Data` folder, edit the `Config.xlsx` file to set the required configuration settings for your workflow.
+
+4. In the `Data` folder, edit the `Settings.json` file to set the required sensitive data, such as the login credentials for the database and the transaction data type.
+
+5. In the `QueueItemTemplate.json` file, define the structure of your SQL database to implement the queue item object.
+
+6. Implement your workflow by editing the `Process` workflow in the `Framework` folder and adding new workflows in the `Workflows` folder.
+
+7. Build and run your workflow by starting the `Main` function in the `Main.cs` file.
+
+8. Test and debug your workflow, and iterate on it as necessary.
+
+
