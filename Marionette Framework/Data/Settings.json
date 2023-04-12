@@ -1,9 +1,0 @@
-﻿{
-  "server": "myserver",
-  "databaseName": "mydb",
-  "username": "user",
-  "password": "pass",
-  "assetTableName": "Assets",
-  "queuesTableName": "Queues",
-  "transactionDataType": "QueueItem"
-}

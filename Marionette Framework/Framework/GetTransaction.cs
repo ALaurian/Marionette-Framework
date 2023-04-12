@@ -18,7 +18,7 @@ partial class Framework
         {
             try
             {
-                var orchestratorQueue = OrchestratorConnection.ReceiveData(Settings.QueuesTableName)
+                var orchestratorQueue = OrchestratorConnection.ReceiveData(FrameworkSettings.QueuesTableName)
                     .AsEnumerable()
                     .FirstOrDefault(row => row.Field<string>(0) == in_Config["OrchestratorQueueName"].ToString());
 

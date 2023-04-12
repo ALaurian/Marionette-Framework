@@ -1,6 +1,6 @@
 ﻿namespace Marionette_Framework
 {
-    public class Settings
+    public class FrameworkSettings
     {
         public string Server { get; set; }
         public string DatabaseName { get; set; }

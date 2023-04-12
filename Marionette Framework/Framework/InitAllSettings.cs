@@ -1,80 +1,82 @@
 ﻿using System.Data;
-using Marionette.Excel_Scope;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace Marionette_Framework
 {
     partial class Framework
     {
-        public void InitAllSettings(string in_ConfigFile, string[] in_ConfigSheets, DataTable in_SettingsDb,
-            out Dictionary<string, object> out_Config)
+        public void InitAllSettings(DataTable in_AssetsTable,
+            out Dictionary<string, object> out_Config, out Dictionary<string, object> out_Assets)
         {
-            //Log Message (Initialize All Settings)
+            //Log Message (Initialize All FrameworkSettings)
             Console.WriteLine("Initializing settings...");
-        
-            //Assign out_Config (initialization)
-            out_Config = new Dictionary<string, object>();
 
-            //For each configuration sheet
-            foreach (var Sheet in in_ConfigSheets)
+            // Load the JSON file as a string
+            string jsonString = File.ReadAllText("Data/Config.json");
+
+            // Deserialize the JSON into a JObject
+            JObject configJObject = JsonConvert.DeserializeObject<JObject>(jsonString);
+
+            // Convert the remaining properties to a Dictionary<string, object>
+            out_Config = configJObject.ToObject<Dictionary<string, object>>();
+            out_Config.Remove("Assets");
+
+            //Try initializing assets
+            try
             {
-                var excelFile = new Excel(in_ConfigFile);
-            
-                //Read range (Settings and Constants sheets)
-                var dt_SettingsAndConstants = excelFile.WriteDataTableFromExcel(Sheet);
-                excelFile.Close();
-
-                //For each configuration row
-                foreach (DataRow Row in (IEnumerable<DataRow>)dt_SettingsAndConstants)
+                // Get the "Assets" property from the JObject
+                JArray assetsArray = configJObject.GetValue("Assets") as JArray;
+                if (assetsArray != null)
                 {
-                    //If configuration row is not empty
-                    if (!string.IsNullOrWhiteSpace(Row["Name"].ToString().Trim()))
-                    {
-                        //Add Config key/value pair
-                        out_Config[Row["Name"].ToString().Trim()] = Row["Value"];
-                    }
+                    // Create a new Dictionary<string, object> to hold the assets
+                    // Iterate over the objects in the array and extract the key-value pairs
+                    out_Assets =
+                        (from asset in assetsArray.OfType<JObject>()
+                            select asset.Properties().FirstOrDefault()
+                            into keyProperty
+                            where keyProperty != null
+                            select keyProperty.Value.ToString())
+                        .ToDictionary<string, string, object>(key => key, key => null);
+                }
+                else
+                {
+                    out_Assets = new Dictionary<string, object>();
                 }
 
-                //Try initializing assets
-                try
-                {
-                    //Get Orchestrator Assets
-                    excelFile = new Excel(in_ConfigFile);
-                
-                    //Read Range (Assets sheet)
-                    var dt_Assets = excelFile.WriteDataTableFromExcel(Sheet);
+                // Create a new dictionary to hold out_Assets
+                var dictPlaceholder = out_Assets;
 
-                    //For each asset row
-                    foreach (DataRow Row in (IEnumerable<DataRow>)dt_Assets)
+                //For each asset row
+                foreach (var asset in dictPlaceholder)
+                {
+                    //Try retrieving asset from Orchestrator
+                    try
                     {
-                        //Try retrieving asset from Orchestrator
-                        try
+                        //Get orchestrator asset
+                        var AssetValue = in_AssetsTable.AsEnumerable()
+                            .Where(row => row.Field<string>(0) == asset.Key)
+                            .Select(row => row.Field<object>(1))
+                            .FirstOrDefault();
+
+                        //Assign value in config
+                        out_Assets[asset.Key] = AssetValue;
+                    }
+                    catch (Exception e)
+                    {
+                        //If asset name is specified, but it cannot be retrieved
+                        if (!string.IsNullOrWhiteSpace(asset.ToString()))
                         {
-                            //Get orchestrator asset
-                            var AssetValue = in_SettingsDb.AsEnumerable()
-                                .Where(row => row.Field<string>(0) == Row[0].ToString())
-                                .Select(row => row.Field<string>(1))
-                                .FirstOrDefault();
-                        
-                            //Assign value in config
-                            out_Config[Row["Name"].ToString()] = AssetValue;
-                        }
-                        catch (Exception e)
-                        {
-                            //If asset name is specified, but it cannot be retrieved
-                            if (!string.IsNullOrWhiteSpace(Row["Name"].ToString().Trim()))
-                            {
-                                //Throw AssetFailedToLoad Exception
-                                throw new Exception("Loading asset " + Row["Asset"] + " failed: " + e.Message);
-                            }
+                            //Throw AssetFailedToLoad Exception
+                            throw new Exception("Loading asset " + asset + " failed: " + e.Message);
                         }
                     }
-
                 }
-                catch (Exception e)
-                {
-                    //Rethrow loading asset exception
-                    throw e;
-                }
+            }
+            catch (Exception e)
+            {
+                //Rethrow loading asset exception
+                throw e;
             }
         }
     }

@@ -9,7 +9,7 @@ class Program
         
         var framework = new Framework();
         
-        //Initializes settings from the Settings.json
+        //Initializes settings from the FrameworkSettings.json
         framework.InitFrameworkSettings();
         
         //Opens a connection to the Orchestrator

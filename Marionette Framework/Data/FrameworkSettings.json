@@ -1,0 +1,9 @@
+﻿{
+  "Server": "myserver",
+  "DatabaseName": "mydb",
+  "Username": "user",
+  "Password": "pass",
+  "AssetTableName": "Assets",
+  "QueuesTableName": "Queues",
+  "TransactionDataType": "QueueItem"
+}

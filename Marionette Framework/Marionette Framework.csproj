@@ -16,10 +16,13 @@
     </ItemGroup>
 
     <ItemGroup>
-      <None Update="Data\Settings.json">
+      <None Update="Data\FrameworkSettings.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
-      <None Update="Data\Config.xlsx">
+      <None Update="Data\Config.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\QueueItemTemplate.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
     </ItemGroup>

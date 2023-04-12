@@ -7,12 +7,20 @@ partial class Framework
 {
     public void InitializeOrchestrator()
     {
-        // Create a new OrchestratorConnection object with the data from the JSON file
-        OrchestratorConnection = new OrchestratorConnection(
-            Settings.Server,
-            Settings.DatabaseName,
-            Settings.Username,
-            Settings.Password
-        );
+        try
+        {
+            // Create a new OrchestratorConnection object with the data from the JSON file
+            OrchestratorConnection = new OrchestratorConnection(
+                FrameworkSettings.Server,
+                FrameworkSettings.DatabaseName,
+                FrameworkSettings.Username,
+                FrameworkSettings.Password
+            );
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine("Failed to establish connection to Orchestrator.");
+        }
+
     }
 }

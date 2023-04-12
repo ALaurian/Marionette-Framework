@@ -7,9 +7,10 @@ partial class Framework
     public void InitFrameworkSettings()
     {
         // Read the JSON file into a string
-        string json = File.ReadAllText("Data/Settings.json");
+        string json = File.ReadAllText("Data/FrameworkSettings.json");
 
         // Deserialize the JSON string into an OrchestratorConfig object
-        Settings = JsonConvert.DeserializeObject<Settings>(json);
+        FrameworkSettings = JsonConvert.DeserializeObject<FrameworkSettings>(json);
+        
     }
 }

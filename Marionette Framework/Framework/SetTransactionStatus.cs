@@ -49,7 +49,7 @@ partial class Framework
         Console.WriteLine("Consecutive system exception counter is " + io_ConsecutiveSystemExceptions +
                           ".");
         var QueueRetry = in_TransactionItem != null &&
-                         in_TransactionItem.GetType().FullName.Equals(Settings.TransactionDataType);
+                         in_TransactionItem.GetType().FullName.Equals(FrameworkSettings.TransactionDataType);
 
         try
         {
@@ -106,7 +106,7 @@ partial class Framework
 
     private void Business_Exception(Dictionary<string, object> in_Config, QueueItem in_TransactionItem)
     {
-        if (in_TransactionItem != null && in_TransactionItem.GetType().FullName.Equals(Settings.TransactionDataType))
+        if (in_TransactionItem != null && in_TransactionItem.GetType().FullName.Equals(FrameworkSettings.TransactionDataType))
         {
             //Retry Get transaction item
             for (int i = 0; i < Int32.Parse(in_Config["RetryNumberSetTransactionStatus"].ToString()); i++)
@@ -129,7 +129,7 @@ partial class Framework
 
     private void Success(Dictionary<string, object> in_Config, QueueItem in_TransactionItem)
     {
-        if (in_TransactionItem != null && in_TransactionItem.GetType().FullName.Equals(Settings.TransactionDataType))
+        if (in_TransactionItem != null && in_TransactionItem.GetType().FullName.Equals(FrameworkSettings.TransactionDataType))
         {
             //Retry Get transaction item
             for (int i = 0; i < Int32.Parse(in_Config["RetryNumberSetTransactionStatus"].ToString()); i++)
