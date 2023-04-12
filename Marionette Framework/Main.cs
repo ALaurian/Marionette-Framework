@@ -9,7 +9,7 @@ class Program
         var framework = new Framework();
         
         //Initializes settings from the Settings.json
-        framework.InitFrameworkSettings(framework);
+        framework.InitFrameworkSettings();
 
         Initialization:
         framework.Initialization(framework.Orchestrator(framework.Settings.AssetTableName));
@@ -56,8 +56,4 @@ class Program
     }
 
 
-}
-
-partial class Framework
-{
 }

@@ -49,7 +49,7 @@ partial class Framework
         Console.WriteLine("Consecutive system exception counter is " + io_ConsecutiveSystemExceptions +
                           ".");
         var QueueRetry = in_TransactionItem != null &&
-                         in_TransactionItem.GetType().FullName.Equals(Settings.TransactionType);
+                         in_TransactionItem.GetType().FullName.Equals(Settings.TransactionDataType);
 
         try
         {
@@ -71,6 +71,7 @@ partial class Framework
                 {
                     in_TransactionItem.Status = QueueItemStatus.Failed;
                     io_RetryNumber = in_TransactionItem.RetryNo;
+                    break;
                 }
                 catch (Exception e)
                 {
@@ -105,7 +106,7 @@ partial class Framework
 
     private void Business_Exception(Dictionary<string, object> in_Config, QueueItem in_TransactionItem)
     {
-        if (in_TransactionItem != null && in_TransactionItem.GetType().FullName.Equals(Settings.TransactionType))
+        if (in_TransactionItem != null && in_TransactionItem.GetType().FullName.Equals(Settings.TransactionDataType))
         {
             //Retry Get transaction item
             for (int i = 0; i < Int32.Parse(in_Config["RetryNumberSetTransactionStatus"].ToString()); i++)
@@ -113,6 +114,7 @@ partial class Framework
                 try
                 {
                     in_TransactionItem.Status = QueueItemStatus.Failed;
+                    break;
                 }
                 catch (Exception e)
                 {
@@ -127,7 +129,7 @@ partial class Framework
 
     private void Success(Dictionary<string, object> in_Config, QueueItem in_TransactionItem)
     {
-        if (in_TransactionItem != null && in_TransactionItem.GetType().FullName.Equals(Settings.TransactionType))
+        if (in_TransactionItem != null && in_TransactionItem.GetType().FullName.Equals(Settings.TransactionDataType))
         {
             //Retry Get transaction item
             for (int i = 0; i < Int32.Parse(in_Config["RetryNumberSetTransactionStatus"].ToString()); i++)
@@ -135,6 +137,7 @@ partial class Framework
                 try
                 {
                     in_TransactionItem.Status = QueueItemStatus.Successful;
+                    break;
                 }
                 catch (Exception e)
                 {
