@@ -9,7 +9,6 @@ namespace Marionette_Framework
         public BusinessRuleException BusinessException;
 
         public Dictionary<string, object> Config;
-        public Dictionary<string, object> Assets;
 
         public String in_OrchestratorQueueName;
         public string in_OrchestratorQueueFolder;

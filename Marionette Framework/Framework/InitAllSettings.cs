@@ -7,7 +7,7 @@ namespace Marionette_Framework
     partial class Framework
     {
         public void InitAllSettings(DataTable in_AssetsTable,
-            out Dictionary<string, object> out_Config, out Dictionary<string, object> out_Assets)
+            out Dictionary<string, object> out_Config)
         {
             //Log Message (Initialize All FrameworkSettings)
             Console.WriteLine("Initializing settings...");
@@ -27,6 +27,7 @@ namespace Marionette_Framework
             {
                 // Get the "Assets" property from the JObject
                 JArray assetsArray = configJObject.GetValue("Assets") as JArray;
+                Dictionary<string,object> out_Assets;
                 if (assetsArray != null)
                 {
                     // Create a new Dictionary<string, object> to hold the assets
@@ -43,7 +44,13 @@ namespace Marionette_Framework
                 {
                     out_Assets = new Dictionary<string, object>();
                 }
-
+                
+                //Add Assets into out_Config properly
+                foreach (KeyValuePair<string, object> pair in out_Assets)
+                {
+                    out_Config.Add(pair.Key, pair.Value);
+                }
+                
                 // Create a new dictionary to hold out_Assets
                 var dictPlaceholder = out_Assets;
 

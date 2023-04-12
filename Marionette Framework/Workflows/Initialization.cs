@@ -10,14 +10,14 @@ partial class Framework
     public void Initialization()
     {
         SystemException = null;
-        var AssetsTable = OrchestratorConnection.ReceiveData(FrameworkSettings.AssetTableName);
+        var AssetsTable = new DataTable();//OrchestratorConnection.ReceiveData(FrameworkSettings.AssetTableName);
         
         if (Config == null)
         {
             Console.WriteLine(
                 $"The primary screen resolution is: {SystemParameters.PrimaryScreenWidth} x {SystemParameters.PrimaryScreenHeight}");
 
-            InitAllSettings(AssetsTable, out Config, out Assets);
+            InitAllSettings(AssetsTable, out Config);
 
             if (!string.IsNullOrWhiteSpace(in_OrchestratorQueueName))
             {
