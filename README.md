@@ -52,6 +52,8 @@ The Workflows folder contains the main workflows that use the framework.
 
 - `Initialization.cs`: This workflow initializes the `Settings` variable and performs the required setup.
 
+- `ProcessTransaction.cs`: This workflow is responsible for performing the necessary actions to complete the transaction, such as retrieving data, performing calculations, and updating records. It leverages the features of the ReFramework, such as transaction logging, exception handling, and retry mechanisms, to ensure the successful completion of the transaction.
+
 ### Main.cs
 
 ## Description of the Main function in the UiPath ReFramework ported to C#.NET
