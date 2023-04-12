@@ -27,12 +27,12 @@ namespace Marionette_Framework
             {
                 // Get the "Assets" property from the JObject
                 JArray assetsArray = configJObject.GetValue("Assets") as JArray;
-                Dictionary<string,object> out_Assets;
+                Dictionary<string,object> assets;
                 if (assetsArray != null)
                 {
                     // Create a new Dictionary<string, object> to hold the assets
                     // Iterate over the objects in the array and extract the key-value pairs
-                    out_Assets =
+                    assets =
                         (from asset in assetsArray.OfType<JObject>()
                             select asset.Properties().FirstOrDefault()
                             into keyProperty
@@ -42,20 +42,16 @@ namespace Marionette_Framework
                 }
                 else
                 {
-                    out_Assets = new Dictionary<string, object>();
+                    assets = new Dictionary<string, object>();
                 }
                 
-                //Add Assets into out_Config properly
-                foreach (KeyValuePair<string, object> pair in out_Assets)
-                {
-                    out_Config.Add(pair.Key, pair.Value);
-                }
-                
-                // Create a new dictionary to hold out_Assets
-                var dictPlaceholder = out_Assets;
+                //Concatenate Dictionaries
+                out_Config = out_Config
+                    .Concat(assets)
+                    .ToDictionary(kvp => kvp.Key, kvp => kvp.Value);
 
                 //For each asset row
-                foreach (var asset in dictPlaceholder)
+                foreach (var asset in assets)
                 {
                     //Try retrieving asset from Orchestrator
                     try
@@ -67,7 +63,7 @@ namespace Marionette_Framework
                             .FirstOrDefault();
 
                         //Assign value in config
-                        out_Assets[asset.Key] = AssetValue;
+                        out_Config[asset.Key] = AssetValue;
                     }
                     catch (Exception e)
                     {

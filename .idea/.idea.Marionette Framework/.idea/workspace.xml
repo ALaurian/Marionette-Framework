@@ -9,7 +9,6 @@
   <component name="ChangeListManager">
     <list default="true" id="16ea34b5-6452-446b-8503-06d08ef70e3d" name="Changes" comment="Initial commit.">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Marionette Framework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Marionette Framework/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/Data/Variables.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Data/Variables.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Marionette Framework/Framework/InitAllSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Framework/InitAllSettings.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Marionette Framework/Workflows/Initialization.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Workflows/Initialization.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/Marionette Framework.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/Marionette Framework.dll" afterDir="false" />
@@ -123,7 +122,7 @@
       <workItem from="1681234341423" duration="11445000" />
       <workItem from="1681292907550" duration="3499000" />
       <workItem from="1681319644146" duration="2236000" />
-      <workItem from="1681327061068" duration="8016000" />
+      <workItem from="1681327061068" duration="8433000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit, untested code.">
       <created>1681238951970</created>

@@ -10,7 +10,7 @@ partial class Framework
     public void Initialization()
     {
         SystemException = null;
-        var AssetsTable = new DataTable();//OrchestratorConnection.ReceiveData(FrameworkSettings.AssetTableName);
+        var AssetsTable = OrchestratorConnection.ReceiveData(FrameworkSettings.AssetTableName);
         
         if (Config == null)
         {
