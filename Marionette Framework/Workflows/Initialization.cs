@@ -10,7 +10,7 @@ partial class Framework
     public void Initialization()
     {
         SystemException = null;
-        var settings_DB = Orchestrator(Settings.AssetTableName);
+        var settings_DB = OrchestratorConnection.ReceiveData(Settings.AssetTableName);
         
         if (Config == null)
         {

@@ -6,10 +6,14 @@ class Program
 {
     static void Main(string[] args)
     {
+        
         var framework = new Framework();
         
         //Initializes settings from the Settings.json
         framework.InitFrameworkSettings();
+        
+        //Opens a connection to the Orchestrator
+        framework.InitializeOrchestrator();
 
         Initialization:
         framework.Initialization();
@@ -53,6 +57,10 @@ class Program
                               " at Source: " + framework.SystemException.Source);
             framework.CloseAllApplications();
         }
+        
+        
+        //Closes the Orchestrator connection
+        framework.OrchestratorConnection.CloseConnection();
     }
 
 
