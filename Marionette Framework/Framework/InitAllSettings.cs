@@ -20,7 +20,7 @@ namespace Marionette_Framework
                 var excelFile = new Excel(in_ConfigFile);
             
                 //Read range (Settings and Constants sheets)
-                var dt_SettingsAndConstants = excelFile.ToDataTableModern(Sheet);
+                var dt_SettingsAndConstants = excelFile.WriteDataTableFromExcel(Sheet);
                 excelFile.Close();
 
                 //For each configuration row
@@ -41,7 +41,7 @@ namespace Marionette_Framework
                     excelFile = new Excel(in_ConfigFile);
                 
                     //Read Range (Assets sheet)
-                    var dt_Assets = excelFile.ToDataTableModern(Sheet);
+                    var dt_Assets = excelFile.WriteDataTableFromExcel(Sheet);
 
                     //For each asset row
                     foreach (DataRow Row in (IEnumerable<DataRow>)dt_Assets)

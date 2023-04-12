@@ -8,7 +8,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="Marionette" Version="1.0.7.7" />
+      <PackageReference Include="Marionette" Version="1.0.7.10" />
       <PackageReference Include="MySqlConnector" Version="2.3.0-beta.1" />
       <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
       <PackageReference Include="PresentationFramework" Version="4.6.0" />
