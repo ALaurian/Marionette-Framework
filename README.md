@@ -10,8 +10,6 @@ The Data folder contains the main configuration files and classes used by the fr
 
 - `Config.xlsx`: This is the main configuration file for the framework, which contains the settings and parameters for the workflow.
 
-- `Orchestrator.cs`: This is a class that handles the connection to the UiPath Orchestrator and returns a DataTable containing the queue data.
-
 - `QueueItemTemplate.json`: This is a template file for creating an SQL database to implement the queue item object.
 
 - `Settings.cs`: This is a class that loads the sensitive data from the `Settings.json` file.
