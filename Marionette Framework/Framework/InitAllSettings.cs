@@ -49,7 +49,6 @@ namespace Marionette_Framework
                         //Try retrieving asset from Orchestrator
                         try
                         {
-                        
                             //Get orchestrator asset
                             var AssetValue = in_SettingsDb.AsEnumerable()
                                 .Where(row => row.Field<string>(0) == Row[0].ToString())

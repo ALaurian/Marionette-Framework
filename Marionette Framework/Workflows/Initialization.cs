@@ -7,14 +7,8 @@ namespace Marionette_Framework;
 
 partial class Framework
 {
-    public DataTable Orchestrator(string tableName, string in_SettingsFile = "Data/Settings.json")
+    public DataTable Orchestrator(string tableName)
     {
-        // Read the JSON file into a string
-        string json = File.ReadAllText(in_SettingsFile);
-
-        // Deserialize the JSON string into an OrchestratorConfig object
-        Settings = JsonConvert.DeserializeObject<Settings>(json);
-
         // Create a new OrchestratorConnection object with the data from the JSON file
         OrchestratorConnection = new OrchestratorConnection(
             Settings.DatabaseName,

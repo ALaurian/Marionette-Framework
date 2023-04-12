@@ -8,9 +8,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16ea34b5-6452-446b-8503-06d08ef70e3d" name="Changes" comment="Initial commit, untested code.">
+      <change afterPath="$PROJECT_DIR$/Marionette Framework/Framework/InitFrameworkSettings.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Marionette Framework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Marionette Framework/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/Settings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Data/Settings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/Variables.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Data/Variables.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marionette Framework/Data/Settings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Data/Settings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marionette Framework/Data/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Data/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marionette Framework/Data/Variables.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Data/Variables.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marionette Framework/Framework/InitAllSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Framework/InitAllSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marionette Framework/Main.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Main.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marionette Framework/Workflows/Initialization.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Workflows/Initialization.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/Marionette Framework.GlobalUsings.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/Marionette Framework.GlobalUsings.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/Marionette Framework.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/Marionette Framework.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/Marionette Framework.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/Marionette Framework.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,12 +41,17 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f3b9684f72bc2cc435eb694f7cc86eca8c240d2d1cefa1e8697a61f1f2f27f/SafeFileHandle.Windows.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Marionette Framework/Data/QueueItemTemplate.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Marionette Framework/Data/Settings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Marionette Framework/Data/Settings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Marionette Framework/Data/Variables.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Marionette Framework/Framework/GetTransaction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Marionette Framework/Framework/InitAllSettings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Marionette Framework/Main.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Marionette Framework/OrchestratorConnection.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Marionette Framework/Transaction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Marionette Framework/Workflows/EndProcess.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Marionette Framework/Workflows/GetTransactionData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Marionette Framework/Workflows/Initialization.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Marionette Framework/Workflows/ProcessTransaction.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
@@ -106,7 +123,7 @@
       <option name="presentableId" value="Default" />
       <updated>1681207211383</updated>
       <workItem from="1681207214161" duration="23477000" />
-      <workItem from="1681234341423" duration="5523000" />
+      <workItem from="1681234341423" duration="10284000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit, untested code.">
       <created>1681238951970</created>

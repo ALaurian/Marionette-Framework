@@ -15,7 +15,7 @@ namespace Marionette_Framework
         
         public int ConsecutiveSystemExceptions;
         
-        public static OrchestratorConnection OrchestratorConnection;
+        public OrchestratorConnection OrchestratorConnection;
         
         public bool ShouldStop = false;
         

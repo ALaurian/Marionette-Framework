@@ -1,13 +1,18 @@
-﻿namespace Marionette_Framework;
+﻿using Newtonsoft.Json;
+
+namespace Marionette_Framework;
 
 class Program
 {
     static void Main(string[] args)
     {
         var framework = new Framework();
+        
+        //Initializes settings from the Settings.json
+        framework.InitFrameworkSettings(framework);
 
         Initialization:
-        framework.Initialization(framework.Orchestrator("myTable"));
+        framework.Initialization(framework.Orchestrator(framework.Settings.AssetTableName));
 
         if (framework.SystemException == null)
         {
@@ -49,4 +54,10 @@ class Program
             framework.CloseAllApplications();
         }
     }
+
+
+}
+
+partial class Framework
+{
 }
