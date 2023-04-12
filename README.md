@@ -1,4 +1,4 @@
-## Description of the UiPath ReFramework ported to C#.NET
+## Description of the Marionette Framework
 
 The UiPath ReFramework is a template designed to automate business processes using a standard framework that provides modularity, scalability, and extensibility. The template is designed to manage the entire lifecycle of a transaction, from initialization to processing to closing, and to handle exceptions and retries.
 
