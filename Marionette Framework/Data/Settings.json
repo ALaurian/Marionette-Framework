@@ -1,4 +1,5 @@
 ﻿{
+  "server": "myserver",
   "databaseName": "mydb",
   "username": "user",
   "password": "pass",

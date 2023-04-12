@@ -9,6 +9,7 @@ partial class Framework
     {
         // Create a new OrchestratorConnection object with the data from the JSON file
         OrchestratorConnection = new OrchestratorConnection(
+            Settings.Server,
             Settings.DatabaseName,
             Settings.Username,
             Settings.Password

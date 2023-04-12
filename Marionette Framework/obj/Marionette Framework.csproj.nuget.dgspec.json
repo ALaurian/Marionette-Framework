@@ -43,7 +43,7 @@
           "dependencies": {
             "Marionette": {
               "target": "Package",
-              "version": "[1.0.7.10, )"
+              "version": "[1.0.7.11, )"
             },
             "MySqlConnector": {
               "target": "Package",
