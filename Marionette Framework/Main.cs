@@ -12,7 +12,7 @@ class Program
         framework.InitFrameworkSettings();
 
         Initialization:
-        framework.Initialization(framework.Orchestrator(framework.Settings.AssetTableName));
+        framework.Initialization();
 
         if (framework.SystemException == null)
         {

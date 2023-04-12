@@ -8,20 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16ea34b5-6452-446b-8503-06d08ef70e3d" name="Changes" comment="Initial commit.">
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/Data/Orchestrator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Marionette Framework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Marionette Framework/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/Data/Settings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Data/Settings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/Framework/InitFrameworkSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Framework/InitFrameworkSettings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/Framework/Process.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Framework/Process.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/Framework/SetTransactionStatus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Framework/SetTransactionStatus.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Marionette Framework/Main.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Main.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Marionette Framework/Workflows/Initialization.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Workflows/Initialization.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/Marionette Framework.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/Marionette Framework.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/Marionette Framework.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/Marionette Framework.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/Marionette Framework.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/Marionette Framework.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/ref/Marionette Framework.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/ref/Marionette Framework.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/refint/Marionette Framework.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/refint/Marionette Framework.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +114,7 @@
       <updated>1681207211383</updated>
       <workItem from="1681207214161" duration="23477000" />
       <workItem from="1681234341423" duration="11445000" />
-      <workItem from="1681292907550" duration="366000" />
+      <workItem from="1681292907550" duration="545000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit, untested code.">
       <created>1681238951970</created>
@@ -156,24 +145,5 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initial commit, untested code." />
     <option name="LAST_COMMIT_MESSAGE" value="Initial commit, untested code." />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Marionette Framework/Main.cs</url>
-          <line>14</line>
-          <properties documentPath="C:\Users\lauri\RiderProjects\Marionette Framework\Marionette Framework\Main.cs" initialLine="14" containingFunctionPresentation="Method 'Main'">
-            <startOffsets>
-              <option value="295" />
-            </startOffsets>
-            <endOffsets>
-              <option value="379" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

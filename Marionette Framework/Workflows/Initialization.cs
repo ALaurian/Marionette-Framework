@@ -7,10 +7,11 @@ namespace Marionette_Framework;
 
 partial class Framework
 {
-    public void Initialization(DataTable settings_DB)
+    public void Initialization()
     {
         SystemException = null;
-
+        var settings_DB = Orchestrator(Settings.AssetTableName);
+        
         if (Config == null)
         {
             Console.WriteLine(
