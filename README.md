@@ -28,6 +28,8 @@ The Framework folder contains the core classes and activities that define the Ui
 
 - `InitAllApplications.cs`: This activity initializes all the required applications at the start of a transaction.
 
+- `InitializeOrchestrator.cs`: This activity handles the interaction with the Orchestrator by opening a connection to it.
+
 - `InitAllSettings.cs`: This activity initializes all the settings at the start of a transaction.
 
 - `InitFrameworkSettings.cs`: This activity initializes the `Settings` variable from the `Settings.json` file.
