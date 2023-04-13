@@ -60,7 +60,7 @@ The Workflows folder contains the main workflows that use the framework.
 
 The `Main` function is the entry point of the application and contains the main workflow of the UiPath ReFramework. The purpose of the function is to retrieve transaction data from a queue, process the data, and update the status of the transaction in the queue.
 
-The `Main` function starts by creating a new instance of the `Framework` class and initializing the settings from the `Settings.json` file using the `InitFrameworkSettings` method.
+The `Main` function starts by creating a new instance of the `Framework` class and initializing the settings from the `FrameworkSettings.json` file using the `InitFrameworkSettings` method.
 
 The function then enters a loop labeled `Initialization`, which calls the `Initialization` workflow. The workflow initializes the required settings and applications for the process.
 
