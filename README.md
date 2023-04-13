@@ -8,13 +8,13 @@ The C#.NET port of the UiPath ReFramework follows the same structure and design 
 
 The Data folder contains the main configuration files and classes used by the framework.
 
-- `Config.xlsx`: This is the main configuration file for the framework, which contains the settings and parameters for the workflow.
+- `Config.json`: This is the main configuration file for the framework, which contains the settings and parameters for the workflow.
 
 - `QueueItemTemplate.json`: This is a template file for creating an SQL database to implement the queue item object.
 
-- `Settings.cs`: This is a class that loads the sensitive data from the `Settings.json` file.
+- `FrameworkSettings.cs`: This is a class that loads the sensitive data from the `FrameworkSettings.json` file.
 
-- `Settings.json`: This file contains the sensitive data, such as the login credentials for the database and the transactionDataType.
+- `FrameworkSettings.json` : This is the main configuration file for the framework, which contains the settings and parameters for the Orchestrator connection.
 
 - `Variables.cs`: This file contains all the global variables used by the framework.
 
