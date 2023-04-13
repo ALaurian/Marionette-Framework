@@ -7,7 +7,7 @@ namespace Marionette_Framework;
 
 partial class Framework
 {
-    public void Initialization()
+    public void Initialization(string in_ConfigPath)
     {
         SystemException = null;
         var AssetsTable = OrchestratorConnection.ReceiveData(FrameworkSettings.AssetTableName);
@@ -17,7 +17,7 @@ partial class Framework
             Console.WriteLine(
                 $"The primary screen resolution is: {SystemParameters.PrimaryScreenWidth} x {SystemParameters.PrimaryScreenHeight}");
 
-            InitAllSettings(AssetsTable, out Config);
+            InitAllSettings(in_ConfigPath, AssetsTable, out Config);
 
             if (!string.IsNullOrWhiteSpace(in_OrchestratorQueueName))
             {

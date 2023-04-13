@@ -6,17 +6,16 @@ class Program
 {
     static void Main(string[] args)
     {
-        
         var framework = new Framework();
         
         //Initializes settings from the FrameworkSettings.json
-        framework.InitFrameworkSettings();
+        framework.InitFrameworkSettings("Data/FrameworkSettings.json");
         
         //Opens a connection to the Orchestrator
         framework.InitializeOrchestrator();
 
         Initialization:
-        framework.Initialization();
+        framework.Initialization("Data/Config.json");
 
         if (framework.SystemException == null)
         {

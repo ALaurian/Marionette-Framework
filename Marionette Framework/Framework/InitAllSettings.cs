@@ -6,14 +6,14 @@ namespace Marionette_Framework
 {
     partial class Framework
     {
-        public void InitAllSettings(DataTable in_AssetsTable,
+        public void InitAllSettings(string in_ConfigPath, DataTable in_AssetsTable,
             out Dictionary<string, object> out_Config)
         {
             //Log Message (Initialize All FrameworkSettings)
             Console.WriteLine("Initializing settings...");
 
             // Load the JSON file as a string
-            string jsonString = File.ReadAllText("Data/Config.json");
+            string jsonString = File.ReadAllText(in_ConfigPath);
 
             // Deserialize the JSON into a JObject
             JObject configJObject = JsonConvert.DeserializeObject<JObject>(jsonString);
@@ -79,7 +79,7 @@ namespace Marionette_Framework
             catch (Exception e)
             {
                 //Rethrow loading asset exception
-                throw e;
+                throw;
             }
         }
     }

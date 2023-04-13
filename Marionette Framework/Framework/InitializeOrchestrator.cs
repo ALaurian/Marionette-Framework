@@ -20,6 +20,7 @@ partial class Framework
         catch (Exception e)
         {
             Console.WriteLine("Failed to establish connection to Orchestrator.");
+            throw;
         }
 
     }
