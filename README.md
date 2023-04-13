@@ -91,9 +91,9 @@ To get started with the Marionette Framework, follow these steps:
 
 2. Open the solution file in your preferred IDE.
 
-3. In the `Data` folder, edit the `Config.xlsx` file to set the required configuration settings for your workflow.
+3. In the `Data` folder, edit the `Config.json` file to set the required configuration settings for your workflow.
 
-4. In the `Data` folder, edit the `Settings.json` file to set the required sensitive data, such as the login credentials for the database and the transaction data type.
+4. In the `Data` folder, edit the `FrameworkSettings.json` file to set the required sensitive data, such as the login credentials for the database and the transaction data type.
 
 5. In the `QueueItemTemplate.json` file, define the structure of your SQL database to implement the queue item object.
 
