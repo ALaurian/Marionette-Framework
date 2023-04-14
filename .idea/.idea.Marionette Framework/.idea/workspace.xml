@@ -10,33 +10,16 @@
   <component name="ChangeListManager">
     <list default="true" id="16ea34b5-6452-446b-8503-06d08ef70e3d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Marionette Framework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Marionette Framework/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/Data/FrameworkSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Data/FrameworkSettings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/Data/FrameworkSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Data/FrameworkSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/Data/QueueItemTemplate.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/Data/Variables.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Data/Variables.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Marionette Framework/Dispatcher/Dispatch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Dispatcher/Dispatch.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Marionette Framework/Dispatcher/Dispatcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Dispatcher/Dispatcher.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/Framework/GetTransaction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Framework/GetTransaction.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Marionette Framework/Framework/InitAllApplications.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Framework/InitAllApplications.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/Framework/InitAllSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Framework/InitAllSettings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/Framework/InitFrameworkSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Framework/InitFrameworkSettings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/Framework/Process.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Framework/Process.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/Framework/RetryCurrentTransaction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Framework/RetryCurrentTransaction.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Marionette Framework/Framework/SetTransactionStatus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Framework/SetTransactionStatus.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/Marionette Framework.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Marionette Framework.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/Workflows/ProcessTransaction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Workflows/ProcessTransaction.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/Marionette Framework.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/Marionette Framework.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/Marionette Framework.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/Marionette Framework.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/Marionette Framework.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/Marionette Framework.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marionette Framework/Main.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Main.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/Marionette Framework.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/Marionette Framework.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/Marionette Framework.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/Marionette Framework.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/Marionette Framework.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/Marionette Framework.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/ref/Marionette Framework.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/ref/Marionette Framework.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/refint/Marionette Framework.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/refint/Marionette Framework.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/Marionette Framework.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/Marionette Framework.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +156,7 @@
       <workItem from="1681404950211" duration="5883000" />
       <workItem from="1681430693902" duration="21000" />
       <workItem from="1681430753215" duration="261000" />
-      <workItem from="1681471381812" duration="13692000" />
+      <workItem from="1681471381812" duration="14809000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit, untested code.">
       <created>1681238951970</created>
@@ -206,6 +189,23 @@
     <option name="LAST_COMMIT_MESSAGE" value="Initial commit, untested code." />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Marionette Framework/Main.cs</url>
+          <line>28</line>
+          <properties documentPath="C:\Users\lauri\RiderProjects\Marionette Framework\Marionette Framework\Main.cs" initialLine="28" containingFunctionPresentation="Method 'Main'">
+            <startOffsets>
+              <option value="731" />
+            </startOffsets>
+            <endOffsets>
+              <option value="769" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="Type#System.Collections.Generic.KeyValuePair`2" memberName="Key" />

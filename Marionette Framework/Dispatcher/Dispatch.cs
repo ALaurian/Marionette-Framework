@@ -1,4 +1,7 @@
 //This namespace is for the Marionette Framework.
+
+using System.Data;
+
 namespace Marionette_Framework;
 
 //This is a partial class declaration for the Framework class.
@@ -14,6 +17,12 @@ partial class Framework
             Config["OrchestratorQueueName"].ToString(),
             int.Parse(Config["MaxRetryNumber"].ToString()),
             in_FrameworkSettingsPath);
-    }
 
+        //Here we add the dispatcherInput
+        //Write logic to add the DataTable, either from Excel, a Json file or a text file..
+        var dataTable = new DataTable();
+
+        _dispatcherInput = dataTable;
+        OrchestratorConnection.ClearQueue(Config["OrchestratorQueueName"].ToString());
+    }
 }

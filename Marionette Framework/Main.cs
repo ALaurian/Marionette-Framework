@@ -26,7 +26,6 @@ class Program
             dispatched = true;
         }
         
-        
         if (framework.SystemException == null)
         {
             GetTransactionData:

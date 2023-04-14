@@ -404,4 +404,3 @@ C:\Users\lauri\RiderProjects\Marionette Framework\Marionette Framework\obj\Debug
 C:\Users\lauri\RiderProjects\Marionette Framework\Marionette Framework\obj\Debug\net6.0-windows10.0.17763\ref\Marionette Framework.dll
 C:\Users\lauri\RiderProjects\Marionette Framework\Marionette Framework\bin\Debug\net6.0-windows10.0.17763\Data\FrameworkSettings.json
 C:\Users\lauri\RiderProjects\Marionette Framework\Marionette Framework\bin\Debug\net6.0-windows10.0.17763\Data\Config.json
-C:\Users\lauri\RiderProjects\Marionette Framework\Marionette Framework\bin\Debug\net6.0-windows10.0.17763\Data\QueueItemTemplate.json

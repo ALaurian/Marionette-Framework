@@ -18,17 +18,19 @@ partial class Framework
         ref int io_ConsecutiveSystemExceptions)
     {
         int state = 0; //initialize a variable named state to 0
-    
+
         //check if both in_BusinessException and in_SystemException are null
         if (in_BusinessException == null && in_SystemException == null)
         {
-            Success(in_Config, ref in_TransactionItem); //call Success method and pass in_Config and in_TransactionItem by reference
+            Success(in_Config,
+                ref in_TransactionItem); //call Success method and pass in_Config and in_TransactionItem by reference
             state = 1; //set the state to 1
         }
         //check if in_BusinessException is not null
         else if (in_BusinessException != null)
         {
-            Business_Exception(in_Config, ref in_TransactionItem); //call Business_Exception method and pass in_Config and in_TransactionItem by reference
+            Business_Exception(in_Config,
+                ref in_TransactionItem); //call Business_Exception method and pass in_Config and in_TransactionItem by reference
             state = 1; //set the state to 1
         }
         //check if in_BusinessException is null
@@ -157,4 +159,5 @@ partial class Framework
 
         Console.WriteLine(in_Config["LogMessage_Success"].ToString());
     }
+    
 }
