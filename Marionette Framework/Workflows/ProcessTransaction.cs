@@ -60,5 +60,8 @@ partial class Framework
                                   exception.Source);
             }
         }
+        
+        TransactionItem.LastProcessingOn = DateTime.Now.ToString();
+        TransactionItem.Progress = "Finished.";
     }
 }

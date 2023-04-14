@@ -9,24 +9,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16ea34b5-6452-446b-8503-06d08ef70e3d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/Data/Input/InputQueue.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/Dispatcher/Dispatch.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/Dispatcher/Dispatcher.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Marionette Framework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Marionette Framework/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/Data/Config.json" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Data/Config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marionette Framework/Data/FrameworkSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Data/FrameworkSettings.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Marionette Framework/Data/FrameworkSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Data/FrameworkSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marionette Framework/Data/QueueItemTemplate.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Marionette Framework/Data/Variables.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Data/Variables.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/Framework/CloseAllApplications.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Framework/CloseAllApplications.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marionette Framework/Dispatcher/Dispatch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Dispatcher/Dispatch.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marionette Framework/Dispatcher/Dispatcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Dispatcher/Dispatcher.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Marionette Framework/Framework/GetTransaction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Framework/GetTransaction.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Marionette Framework/Framework/InitAllApplications.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Framework/InitAllApplications.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Marionette Framework/Framework/InitAllSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Framework/InitAllSettings.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Marionette Framework/Framework/InitFrameworkSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Framework/InitFrameworkSettings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/Framework/InitializeOrchestrator.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Marionette Framework/Framework/Process.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Framework/Process.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marionette Framework/Framework/RetryCurrentTransaction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Framework/RetryCurrentTransaction.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Marionette Framework/Framework/SetTransactionStatus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Framework/SetTransactionStatus.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/Main.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Main.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Marionette Framework/Marionette Framework.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Marionette Framework.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/Workflows/Initialization.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Workflows/Initialization.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Marionette Framework/Workflows/ProcessTransaction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Workflows/ProcessTransaction.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/Marionette Framework.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/Marionette Framework.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/Marionette Framework.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/Marionette Framework.csproj.AssemblyReference.cache" afterDir="false" />
@@ -57,10 +54,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/29ea32a76b2a6b8eb246f247df6a6a86d887384b4c31db2a35effccdd86c24/JsonSerializerInternalReader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/575c31ecc35a636b6f962cb71d53992552941a18982aae1c8e6c16305cc3761b/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c95dcc58313213285a3bb76c2a3cedab84d293d1b4f5693c7b33d0f2648e5/Convert.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f3b9684f72bc2cc435eb694f7cc86eca8c240d2d1cefa1e8697a61f1f2f27f/SafeFileHandle.Windows.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Documents/GitHub/Fight/Marionette/Orchestrator/Objects/QueueItem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Documents/GitHub/Fight/Marionette/Orchestrator/OrchestratorConnection.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Marionette Framework/Data/FrameworkSettings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Marionette Framework/Data/FrameworkSettings.json" root0="FORCE_HIGHLIGHTING" />
@@ -174,7 +172,8 @@
       <workItem from="1681388274883" duration="6424000" />
       <workItem from="1681404950211" duration="5883000" />
       <workItem from="1681430693902" duration="21000" />
-      <workItem from="1681430753215" duration="79000" />
+      <workItem from="1681430753215" duration="261000" />
+      <workItem from="1681471381812" duration="13692000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit, untested code.">
       <created>1681238951970</created>

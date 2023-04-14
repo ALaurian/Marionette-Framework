@@ -4,6 +4,4 @@
   "Username": "root",
   "Password": "",
   "AssetTableName": "assets",
-  "QueuesTableName": "queues",
-  "TransactionDataType": "QueueItem"
 }

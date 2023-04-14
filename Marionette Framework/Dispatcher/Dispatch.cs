@@ -1,10 +1,13 @@
+//This namespace is for the Marionette Framework.
 namespace Marionette_Framework;
 
+//This is a partial class declaration for the Framework class.
 partial class Framework
 {
+    //This method Dispatches data from a DT into the Queue using a Dispatcher instance.
     public void Dispatch(string in_FrameworkSettingsPath)
     {
-        //The dispatcher class, it sends all the data from a DT into the Queue.
+        //Create a new instance of the Dispatcher class with the given parameters.
         var dispatcher = new Dispatcher(
             _dispatcherInput,
             OrchestratorConnection,

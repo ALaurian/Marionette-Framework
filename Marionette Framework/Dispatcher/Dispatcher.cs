@@ -1,131 +1,46 @@
+// This code defines a C# class named 'Dispatcher'
+namespace Marionette_Framework;
+
+// Importing necessary namespaces
 using System.Data;
 using Marionette.Orchestrator;
 using Marionette.Orchestrator.Enums;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-namespace Marionette_Framework;
-
+// Defining 'Dispatcher' class
 public class Dispatcher
 {
-    public Dispatcher(DataTable in_InputDT, OrchestratorConnection in_OrchestratorConnection, string in_QueueName, int in_RetryNo, string in_FrameworkSettingsPath)
+    // Constructor with parameters
+    public Dispatcher(DataTable in_InputDT, Orchestrator in_OrchestratorConnection, string in_QueueName,
+        int in_RetryNo, string in_FrameworkSettingsPath)
     {
-        // Read the JSON file into a string
-        var json = File.ReadAllText(in_FrameworkSettingsPath);
-
-        // Deserialize the JSON string into an OrchestratorConfig object
-        var FrameworkSettings = JsonConvert.DeserializeObject<FrameworkSettings>(json);
-        
-        var queueItems = new List<QueueItem>();
-        int id = 0;
-
-        // get the existing queue items for the queue name
-
-        var existingQueueItemsJson = in_OrchestratorConnection.GetJsonFromQueuesTable(in_QueueName);
-
-        if (!string.IsNullOrEmpty(existingQueueItemsJson))
+        // Check if the specified queue exists in the Orchestrator, if not, create one.
+        if (!in_OrchestratorConnection.TableExists(in_QueueName))
         {
-            // deserialize the existing queue items into a list
-            var existingQueueItems = JsonConvert.DeserializeObject<List<QueueItem>>(existingQueueItemsJson);
-
-            // find the max id in the existing queue items
-            var maxId = existingQueueItems.Max(x => x.Id);
-
-            // start from the next id
-            id = maxId + 1;
-
-            // add the new QueueItems to the existing list
-            foreach (DataRow row in in_InputDT.Rows)
-            {
-                var queueItem = new QueueItem
-                {
-                    // set the properties of the QueueItem from the values in the current row
-                    AssignedTo = "",
-                    DeferDate = System.DateTime.Now,
-                    DueDate = System.DateTime.Now,
-                    Id = id,
-                    ItemKey = Guid.NewGuid(),
-                    LastProcessingOn = "",
-                    Output = new Dictionary<string, object>(),
-                    Priority = QueueItemPriority.Medium,
-                    Progress = "Started",
-                    QueueName = in_QueueName,
-                    Reference = "",
-                    RetryNo = in_RetryNo,
-                    ReviewStatus = "",
-                    SpecificContent = new Dictionary<string, object>(),
-                    StartTransactionTime = DateTime.Now,
-                    Status = QueueItemStatus.New
-                };
-
-                // convert the ItemArray of the current row to a Dictionary and add it to SpecificContent
-                Dictionary<string, object> specificContent = new Dictionary<string, object>();
-                for (var i = 0; i < row.ItemArray.Length; i++)
-                {
-                    specificContent.Add(in_InputDT.Columns[i].ColumnName, row[i]);
-                }
-
-                queueItem.SpecificContent = specificContent;
-
-                existingQueueItems.Add(queueItem);
-                id++;
-            }
-
-            // serialize the updated list of QueueItems
-            string queueItemsJson =
-                JsonConvert.SerializeObject(existingQueueItems, Formatting.Indented, new StringEnumConverter());
-
-            // update the existing JSON value in the SQL table
-            in_OrchestratorConnection.UpdateJsonInQueuesTable(in_QueueName, queueItemsJson);
-
-            in_OrchestratorConnection.CloseConnection();
+            in_OrchestratorConnection.CreateQueue(in_QueueName);
         }
-        else
+
+        // Loop through each row in the input DataTable and add it as a new queue item in the Orchestrator queue
+        foreach (DataRow row in in_InputDT.Rows)
         {
-            // create new QueueItems from the DataTable and add them to a new list
-            foreach (DataRow row in in_InputDT.Rows)
+            // Create a new dictionary to store the content of the current row
+            var specificContent = new Dictionary<string, object>();
+
+            // Loop through each column in the current row and add it to the dictionary with column name as key
+            foreach (DataColumn column in in_InputDT.Columns)
             {
-                var queueItem = new QueueItem
-                {
-                    // set the properties of the QueueItem from the values in the current row
-                    AssignedTo = "",
-                    DeferDate = System.DateTime.Now,
-                    DueDate = System.DateTime.Now,
-                    Id = id,
-                    ItemKey = Guid.NewGuid(),
-                    LastProcessingOn = "",
-                    Output = new Dictionary<string, object>(),
-                    Priority = QueueItemPriority.Medium,
-                    Progress = "Started",
-                    QueueName = in_QueueName,
-                    Reference = "",
-                    RetryNo = in_RetryNo,
-                    ReviewStatus = "",
-                    SpecificContent = new Dictionary<string, object>(),
-                    StartTransactionTime = DateTime.Now,
-                    Status = QueueItemStatus.New
-                };
-
-                // convert the ItemArray of the current row to a Dictionary and add it to SpecificContent
-                Dictionary<string, object> specificContent = new Dictionary<string, object>();
-                for (var i = 0; i < row.ItemArray.Length; i++)
-                {
-                    specificContent.Add(in_InputDT.Columns[i].ColumnName, row[i]);
-                }
-
-                queueItem.SpecificContent = specificContent;
-
-                queueItems.Add(queueItem);
-                id++;
+                specificContent.Add(column.ColumnName, row[column]);
             }
 
-            // serialize the new list of QueueItems
-            string queueItemsJson =
-                JsonConvert.SerializeObject(queueItems, Formatting.Indented, new StringEnumConverter());
+            // Create a new QueueItem object using the extracted row data and add it to the specified queue
+            var QueueItem = new QueueItem(Environment.UserName, "N/A",
+                "N/A", 0, Guid.NewGuid(), "N/A", new Dictionary<string, object>(),
+                QueueItemPriority.Medium, "N/A", in_QueueName, "N/A", in_RetryNo,
+                "N/A", specificContent, "N/A", QueueItemStatus.New, in_OrchestratorConnection);
 
-            // insert the new JSON value into the SQL table
-            in_OrchestratorConnection.UpdateJsonInQueuesTable(in_QueueName, queueItemsJson);
-            
+
+            in_OrchestratorConnection.AddToQueue(QueueItem, in_QueueName);
         }
     }
 }

@@ -7,6 +7,7 @@ namespace Marionette_Framework;
 
 partial class Framework
 {
+//This is a public method named SetTransactionStatus that takes in several parameters by reference
     public void SetTransactionStatus(BusinessRuleException in_BusinessException,
         Dictionary<string, object> in_Config,
         QueueItem in_TransactionItem,
@@ -16,35 +17,40 @@ partial class Framework
         Exception in_SystemException,
         ref int io_ConsecutiveSystemExceptions)
     {
-        int state = 0;
+        int state = 0; //initialize a variable named state to 0
+    
+        //check if both in_BusinessException and in_SystemException are null
         if (in_BusinessException == null && in_SystemException == null)
         {
-            Success(in_Config, ref in_TransactionItem);
-            state = 1;
+            Success(in_Config, ref in_TransactionItem); //call Success method and pass in_Config and in_TransactionItem by reference
+            state = 1; //set the state to 1
         }
+        //check if in_BusinessException is not null
         else if (in_BusinessException != null)
         {
-            Business_Exception(in_Config, ref in_TransactionItem);
-            state = 1;
+            Business_Exception(in_Config, ref in_TransactionItem); //call Business_Exception method and pass in_Config and in_TransactionItem by reference
+            state = 1; //set the state to 1
         }
+        //check if in_BusinessException is null
         else if (in_BusinessException == null)
         {
+            //call System_Exception method and pass in_Config, in_TransactionItem, io_RetryNumber, io_TransactionNumber, in_SystemException and io_ConsecutiveSystemExceptions by reference
             System_Exception(in_Config, ref in_TransactionItem, ref io_RetryNumber, ref io_TransactionNumber,
                 in_SystemException, ref io_ConsecutiveSystemExceptions);
         }
 
+        //check the state variable using switch statement
         switch (state)
         {
+            //if state is 1, increment io_TransactionNumber by 1, set io_RetryNumber and io_ConsecutiveSystemExceptions to 0
             case 1:
                 io_TransactionNumber++;
                 io_RetryNumber = 0;
                 io_ConsecutiveSystemExceptions = 0;
                 break;
         }
-
-        SetTransactionStatusSQL(in_Config["OrchestratorQueueName"].ToString(), in_TransactionItem,
-            in_TransactionItem.Status);
     }
+
 
     private void System_Exception(Dictionary<string, object> in_Config, ref QueueItem in_TransactionItem,
         ref int io_RetryNumber,
@@ -150,30 +156,5 @@ partial class Framework
         }
 
         Console.WriteLine(in_Config["LogMessage_Success"].ToString());
-    }
-
-    private void SetTransactionStatusSQL(string in_QueueName, QueueItem in_queueItem, QueueItemStatus in_queueItemStatus)
-    {
-        if (in_queueItem != null)
-        {
-            // get the existing queue items for the queue name
-            var existingQueueItemsJson = OrchestratorConnection.GetJsonFromQueuesTable(in_QueueName);
-
-            // Deserialize the JSON into a List<QueueItem> object
-            List<QueueItem> queueItems = JsonConvert.DeserializeObject<List<QueueItem>>(existingQueueItemsJson);
-
-            // Find the QueueItem object you want to update
-            QueueItem itemToUpdate = queueItems.FirstOrDefault(item => item.ItemKey == in_queueItem.ItemKey);
-
-            // Update the "status" property of that QueueItem object
-            itemToUpdate.Status = in_queueItemStatus;
-
-            // Serialize the updated List<QueueItem> object back into a JSON string
-            string updatedJson = JsonConvert.SerializeObject(queueItems, Formatting.Indented);
-
-            OrchestratorConnection.UpdateJsonInQueuesTable(in_QueueName, updatedJson);
-        
-            Console.WriteLine($"Set transaction status to: {in_queueItemStatus}.");
-        }
     }
 }

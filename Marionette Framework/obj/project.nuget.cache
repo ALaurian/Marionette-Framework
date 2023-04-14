@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "+IYWvShVPqDS0HYnu5WtHJQ4Oe+tvTPh+q9cj8qtk5kzHyxxUZpVk3TvAxbXP36y4ZP6HH3VOAb9SdH7kjEbyg==",
+  "dgSpecHash": "SD5edqBqXoml52rGuH70j2zHVs1IihgLz5Zvn8+IMfc41Sc83Egvfi7PsfWzb8sOk067ckZ+SNhd/eLD9iRL2Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\lauri\\RiderProjects\\Marionette Framework\\Marionette Framework\\Marionette Framework.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lauri\\.nuget\\packages\\flaui.core\\4.0.0\\flaui.core.4.0.0.nupkg.sha512",
     "C:\\Users\\lauri\\.nuget\\packages\\flaui.uia3\\4.0.0\\flaui.uia3.4.0.0.nupkg.sha512",
     "C:\\Users\\lauri\\.nuget\\packages\\interop.uiautomationclient\\10.19041.0\\interop.uiautomationclient.10.19041.0.nupkg.sha512",
-    "C:\\Users\\lauri\\.nuget\\packages\\marionette\\1.0.7.17\\marionette.1.0.7.17.nupkg.sha512",
+    "C:\\Users\\lauri\\.nuget\\packages\\marionette\\1.0.7.36\\marionette.1.0.7.36.nupkg.sha512",
     "C:\\Users\\lauri\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\lauri\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",
     "C:\\Users\\lauri\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",

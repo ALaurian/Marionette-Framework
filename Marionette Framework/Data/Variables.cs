@@ -16,7 +16,7 @@ namespace Marionette_Framework
         public Dictionary<string, object> Config;
 
         //The orchestrator connection to the DB, it has a method that lets you fetch any Table from the DB.
-        public OrchestratorConnection OrchestratorConnection;
+        public Orchestrator OrchestratorConnection;
 
 
         public int ConsecutiveSystemExceptions = 0;

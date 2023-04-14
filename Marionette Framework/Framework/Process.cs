@@ -12,12 +12,7 @@ partial class Framework
     {
         Console.WriteLine("Started Process");
         in_TransactionItem.Status = QueueItemStatus.InProgress;
-        SetTransactionStatusSQL(in_Config["OrchestratorQueueName"].ToString(), in_TransactionItem,
-            QueueItemStatus.InProgress);
-        
+        in_TransactionItem.StartTransactionTime = DateTime.Now.ToString();
         //Invoke steps of processs
     }
-
-    
-    
 }

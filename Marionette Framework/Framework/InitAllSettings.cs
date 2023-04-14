@@ -1,17 +1,19 @@
-﻿using System.Data;
+﻿// Import necessary libraries
+using System.Data;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
 namespace Marionette_Framework
 {
+    // Define the Framework class
     partial class Framework
     {
-        public void InitAllSettings(string in_ConfigPath, DataTable in_AssetsTable,
-            out Dictionary<string, object> out_Config)
+        // Define a public method for initializing all framework settings
+        public void InitAllSettings(string in_ConfigPath, DataTable in_AssetsTable, out Dictionary<string, object> out_Config)
         {
-            //Log Message (Initialize All FrameworkSettings)
+            //Log message to console indicating that settings initialization has started
             Console.WriteLine("Initializing settings...");
-
+            
             // Load the JSON file as a string
             string jsonString = File.ReadAllText(in_ConfigPath);
 
@@ -83,4 +85,4 @@ namespace Marionette_Framework
             }
         }
     }
-}
+} 
