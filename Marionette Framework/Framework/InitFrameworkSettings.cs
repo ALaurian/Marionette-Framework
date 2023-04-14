@@ -1,3 +1,4 @@
+using Marionette.Orchestrator;
 using Newtonsoft.Json;
 
 namespace Marionette_Framework;
@@ -12,5 +13,22 @@ partial class Framework
         // Deserialize the JSON string into an OrchestratorConfig object
         FrameworkSettings = JsonConvert.DeserializeObject<FrameworkSettings>(json);
         
+        try
+        {
+            // Create a new OrchestratorConnection object with the data from the JSON file
+            OrchestratorConnection = new OrchestratorConnection(
+                FrameworkSettings.Server,
+                FrameworkSettings.DatabaseName,
+                FrameworkSettings.Username,
+                FrameworkSettings.Password
+            );
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine("Failed to establish connection to Orchestrator.");
+            throw;
+        }
+
+
     }
 }

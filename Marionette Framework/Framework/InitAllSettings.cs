@@ -49,7 +49,7 @@ namespace Marionette_Framework
                 out_Config = out_Config
                     .Concat(assets)
                     .ToDictionary(kvp => kvp.Key, kvp => kvp.Value);
-
+                
                 //For each asset row
                 foreach (var asset in assets)
                 {

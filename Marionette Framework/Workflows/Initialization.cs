@@ -9,9 +9,10 @@ partial class Framework
 {
     public void Initialization(string in_ConfigPath)
     {
+        
         SystemException = null;
         var AssetsTable = OrchestratorConnection.ReceiveData(FrameworkSettings.AssetTableName);
-        
+
         if (Config == null)
         {
             Console.WriteLine(
@@ -19,15 +20,16 @@ partial class Framework
 
             InitAllSettings(in_ConfigPath, AssetsTable, out Config);
 
-            if (!string.IsNullOrWhiteSpace(in_OrchestratorQueueName))
-            {
-                Config["OrchestratorQueueName"] = in_OrchestratorQueueName;
-            }
-
-            if (!string.IsNullOrWhiteSpace(in_OrchestratorQueueFolder))
-            {
-                Config["OrchestratorQueueFolder"] = in_OrchestratorQueueFolder;
-            }
+            //Commented out due to being unnecessary, the config already loads this data.
+            // if (!string.IsNullOrWhiteSpace(Config["in_OrchestratorQueueName"].ToString()))
+            // {
+            //     Config["OrchestratorQueueName"] = in_OrchestratorQueueName;
+            // }
+            //
+            // if (!string.IsNullOrWhiteSpace(in_OrchestratorQueueFolder))
+            // {
+            //     Config["OrchestratorQueueFolder"] = in_OrchestratorQueueFolder;
+            // }
 
             KillAllProcesses();
 
@@ -35,11 +37,13 @@ partial class Framework
         }
 
 
-        if (Int32.Parse(Config["MaxConsecutiveSystemExceptions"].ToString()) > 0 && ConsecutiveSystemExceptions >=
+        if (Int32.Parse(Config["MaxConsecutiveSystemExceptions"].ToString()) > 0 &&
+            Int32.Parse(Config["ConsecutiveSystemExceptions"].ToString()) >=
             Int32.Parse(Config["MaxConsecutiveSystemExceptions"].ToString()))
         {
             throw new Exception(Config["ExceptionMessage_ConsecutiveErrors"] +
-                                " Consecutive retry number: " + (ConsecutiveSystemExceptions + 1));
+                                " Consecutive retry number: " +
+                                (Int32.Parse(Config["ConsecutiveSystemExceptions"].ToString()) + 1));
         }
 
         InitAllApplications();

@@ -9,7 +9,7 @@ partial class Framework
         try
         {
             BusinessException = null;
-            Process(TransactionItem, Config);
+            Process(ref TransactionItem, Config);
             try
             {
                 SetTransactionStatus(BusinessException,

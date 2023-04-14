@@ -1,7 +1,7 @@
 {
   "OrchestratorQueueName" : "ProcessABCQueue",
   "OrchestratorQueueFolder" : "",
-  "logF_BusinessProcessName" : "Framework",
+  "logF_BusinessProcessName" : "RPAChallengeQueue",
   "MaxRetryNumber" : 0,
   "MaxConsecutiveSystemExceptions" : 0,
   "ExScreenshotsFolderPath": "Exceptions_Screenshots",
@@ -17,8 +17,7 @@
 
   "Assets":
   [
-    { "Name": "FirstAsset" },
-    { "Name": "Second Asset"},
-    { "Name": "Third Asset"}
+    { "Name": "Username" },
+    { "Name": "Password" }
   ]
 }

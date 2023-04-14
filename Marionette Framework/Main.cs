@@ -1,22 +1,32 @@
-﻿using Newtonsoft.Json;
+﻿using System.Data;
+using Marionette.Excel_Scope;
+using Marionette.WebBrowser;
+using Newtonsoft.Json;
 
 namespace Marionette_Framework;
 
 class Program
 {
+    private static bool dispatched = false;
     static void Main(string[] args)
     {
         var framework = new Framework();
-        
+
         //Initializes settings from the FrameworkSettings.json
         framework.InitFrameworkSettings("Data/FrameworkSettings.json");
-        
-        //Opens a connection to the Orchestrator
-        framework.InitializeOrchestrator();
 
         Initialization:
+        //Initializes settings from the Config.json
         framework.Initialization("Data/Config.json");
 
+        //Dispatcher
+        if (dispatched == false)
+        {
+            framework.Dispatch("Data/FrameworkSettings.json");
+            dispatched = true;
+        }
+        
+        
         if (framework.SystemException == null)
         {
             GetTransactionData:
@@ -29,7 +39,7 @@ class Program
             }
             else
             {
-                Console.Write(
+                Console.WriteLine(
                     framework.Config["LogMessage_GetTransactionData"] + framework.TransactionNumber.ToString());
 
                 framework.ProcessTransaction();
@@ -56,11 +66,9 @@ class Program
                               " at Source: " + framework.SystemException.Source);
             framework.CloseAllApplications();
         }
-        
-        
+
+
         //Closes the Orchestrator connection
         framework.OrchestratorConnection.CloseConnection();
     }
-
-
 }
