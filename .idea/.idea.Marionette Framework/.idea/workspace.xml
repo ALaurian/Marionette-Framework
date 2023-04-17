@@ -9,8 +9,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16ea34b5-6452-446b-8503-06d08ef70e3d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Marionette Framework/Tests/GetTransactionDataTestCase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Marionette Framework/Tests/InitAllApplicationsTestCase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Marionette Framework/Tests/Tests.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Marionette Framework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Marionette Framework/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/Dispatcher/Dispatch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Dispatcher/Dispatch.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marionette Framework/Main.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Main.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marionette Framework/Marionette Framework.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Marionette Framework.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/Marionette Framework.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/Marionette Framework.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/Marionette Framework.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/Marionette Framework.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/Marionette Framework.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/Marionette Framework.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/Marionette Framework.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/Marionette Framework.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/Marionette Framework.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/Marionette Framework.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/Marionette Framework.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/Marionette Framework.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/Marionette Framework.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/Marionette Framework.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,13 +45,13 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/29ea32a76b2a6b8eb246f247df6a6a86d887384b4c31db2a35effccdd86c24/JsonSerializerInternalReader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/575c31ecc35a636b6f962cb71d53992552941a18982aae1c8e6c16305cc3761b/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9c83468afd66701b558bdef3d5b2e560e3cbc5493badf66ff992cf6fffab/XPathParser.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c95dcc58313213285a3bb76c2a3cedab84d293d1b4f5693c7b33d0f2648e5/Convert.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/cde0291933299f1e732d9436b8558e21577bcdf64c6d8ac7c6a0abeac6c6d/RuntimeMethodInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f3b9684f72bc2cc435eb694f7cc86eca8c240d2d1cefa1e8697a61f1f2f27f/SafeFileHandle.Windows.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Documents/GitHub/Fight/Marionette/Orchestrator/Objects/QueueItem.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/Documents/GitHub/Fight/Marionette/Orchestrator/OrchestratorConnection.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Marionette Framework/Data/FrameworkSettings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Marionette Framework/Data/FrameworkSettings.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Marionette Framework/Data/QueueItemTemplate.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Marionette Framework/Data/Variables.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Marionette Framework/Framework/GetTransaction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Marionette Framework/Framework/InitAllSettings.cs" root0="FORCE_HIGHLIGHTING" />
@@ -64,7 +79,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.50098234&quot;,
+    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.92391306&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -72,6 +87,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -147,7 +163,9 @@
       <workItem from="1681404950211" duration="5883000" />
       <workItem from="1681430693902" duration="21000" />
       <workItem from="1681430753215" duration="261000" />
-      <workItem from="1681471381812" duration="14911000" />
+      <workItem from="1681471381812" duration="16857000" />
+      <workItem from="1681500674265" duration="4953000" />
+      <workItem from="1681738583911" duration="3402000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit, untested code.">
       <created>1681238951970</created>
@@ -182,6 +200,7 @@
   <component name="XDebuggerManager">
     <pin-to-top-manager>
       <pinned-members>
+        <PinnedItemInfo parentTag="Type#Marionette.WinEngine.MarionetteWinBrowser" memberName="ActiveElement" />
         <PinnedItemInfo parentTag="Type#System.Collections.Generic.KeyValuePair`2" memberName="Key" />
       </pinned-members>
     </pin-to-top-manager>
