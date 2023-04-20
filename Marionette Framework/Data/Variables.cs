@@ -34,9 +34,6 @@ namespace Marionette_Framework
         
         //Dispatcher input DataTable
         public DataTable _dispatcherInput;
-        
-        //User created Variables
-        public MarionetteWebBrowser _webBrowser;
 
     }
 }
