@@ -18,7 +18,7 @@ class Program
 
         //Initializes settings from the FrameworkSettings.json
         framework.InitFrameworkSettings("Data/FrameworkSettings.json");
-
+        
         Initialization:
         //Initializes settings from the Config.json
         framework.Initialization("Data/Config.json");

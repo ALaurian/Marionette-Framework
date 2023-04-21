@@ -1,6 +1,7 @@
 //This namespace is for the Marionette Framework.
 
 using System.Data;
+using Marionette.Excel_Scope;
 
 namespace Marionette_Framework;
 
@@ -11,9 +12,15 @@ partial class Framework
     public void Dispatch(string in_FrameworkSettingsPath)
     {
         var OrchestratorQueueName = Config["OrchestratorQueueName"].ToString();
+        
         //Here we add the dispatcherInput
         //Write logic to add the DataTable, either from Excel, a Json file or a text file..
-        var dataTable = new DataTable();
+        chromeBrowser.Click("//*[contains(text(),'Download Excel')]");
+        var downloadedFiles = chromeBrowser.GetDownloadedFiles();
+        var excelFile = new Excel(chromeBrowser.GetDownloadedFilePath(0));
+
+        var dataTable = excelFile.WriteDataTableFromExcel(1);
+        excelFile.Close();
         _dispatcherInput = dataTable;
 
         try

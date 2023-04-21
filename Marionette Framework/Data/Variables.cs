@@ -34,6 +34,9 @@ namespace Marionette_Framework
         
         //Dispatcher input DataTable
         public DataTable _dispatcherInput;
+        
+        //WebBrowser
+        public MarionetteWebBrowser chromeBrowser;
 
     }
 }

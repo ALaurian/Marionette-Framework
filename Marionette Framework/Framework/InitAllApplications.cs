@@ -12,7 +12,8 @@ partial class Framework
     public void InitAllApplications()
     {
         Console.WriteLine("Opening applications...");
-        
-        
+
+        chromeBrowser = new MarionetteWebBrowser(BrowserType.Chrome);
+        chromeBrowser.Navigate(Config["rpaChallengeURL"].ToString(), chromeBrowser.GetPageByIndex(0));
     }
 }

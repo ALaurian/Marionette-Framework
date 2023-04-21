@@ -1,5 +1,5 @@
 {
-  "OrchestratorQueueName" : "ProcessABCQueue",
+  "OrchestratorQueueName" : "RPAChallengeQueue",
   "OrchestratorQueueFolder" : "",
   "logF_BusinessProcessName" : "RPAChallengeQueue",
   "MaxRetryNumber" : 0,
@@ -17,7 +17,6 @@
 
   "Assets":
   [
-    { "Name": "Username" },
-    { "Name": "Password" }
+    { "Name": "rpaChallengeURL" }
   ]
 }

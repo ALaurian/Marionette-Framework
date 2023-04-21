@@ -20,17 +20,6 @@ partial class Framework
 
             InitAllSettings(in_ConfigPath, AssetsTable, out Config);
 
-            //Commented out due to being unnecessary, the config already loads this data.
-            // if (!string.IsNullOrWhiteSpace(Config["in_OrchestratorQueueName"].ToString()))
-            // {
-            //     Config["OrchestratorQueueName"] = in_OrchestratorQueueName;
-            // }
-            //
-            // if (!string.IsNullOrWhiteSpace(in_OrchestratorQueueFolder))
-            // {
-            //     Config["OrchestratorQueueFolder"] = in_OrchestratorQueueFolder;
-            // }
-
             KillAllProcesses();
 
             //Add Log Fields
