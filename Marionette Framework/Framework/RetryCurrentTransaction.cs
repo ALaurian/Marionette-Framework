@@ -2,7 +2,7 @@ namespace Marionette_Framework;
 
 partial class Framework 
 {
-    private void RetryCurrentTransaction(Dictionary<string, object> in_Config,
+    private static void RetryCurrentTransaction(Dictionary<string, object> in_Config,
         ref int io_RetryNumber,
         ref int io_TransactionNumber,
         Exception in_SystemException,

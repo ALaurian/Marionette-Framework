@@ -9,7 +9,7 @@ namespace Marionette_Framework
     partial class Framework
     {
         // Define a public method for initializing all framework settings
-        public void InitAllSettings(string in_ConfigPath, DataTable in_AssetsTable, out Dictionary<string, object> out_Config)
+        public static void InitAllSettings(string in_ConfigPath, DataTable in_AssetsTable, out Dictionary<string, object> out_Config)
         {
             //Log message to console indicating that settings initialization has started
             Console.WriteLine("Initializing settings...");

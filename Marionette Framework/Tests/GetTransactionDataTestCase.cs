@@ -1,31 +1,34 @@
+using System.Windows.Controls;
+using static Marionette_Framework.Workflows;
+
 namespace Marionette_Framework.Tests;
 
 public partial class Tests
 {
-    public void GetTransactionDataTestCase()
+    public static void GetTransactionDataTestCase()
     {
         Console.WriteLine("GetTransactionDataTestCase started.");
         var framework = new Framework();
 
         //Initializes settings from the FrameworkSettings.json
-        framework.InitFrameworkSettings("Data/FrameworkSettings.json");
+        Framework.InitFrameworkSettings("Data/FrameworkSettings.json");
 
         //Initializes settings from the Config.json
-        framework.Initialization("Data/Config.json");
+        Initialization("Data/Config.json");
 
         //Dispatcher
         if (dispatched == false)
         {
-            framework.Dispatch("Data/FrameworkSettings.json");
+            Dispatch("Data/FrameworkSettings.json");
             dispatched = true;
         }
 
-        framework.GetTransactionData();
-        var VerificationOutput = framework.TransactionItem != null;
+        GetTransactionData();
+        var VerificationOutput = TransactionItem != null;
 
         if (VerificationOutput)
         {
-            framework.TransactionItem.Progress = "Tested";
+            TransactionItem.Progress = "Tested";
         }
     }
 }

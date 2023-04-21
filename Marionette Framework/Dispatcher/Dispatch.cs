@@ -6,10 +6,10 @@ using Marionette.Excel_Scope;
 namespace Marionette_Framework;
 
 //This is a partial class declaration for the Framework class.
-partial class Framework
+partial class Workflows
 {
     //This method Dispatches data from a DT into the Queue using a Dispatcher instance.
-    public void Dispatch(string in_FrameworkSettingsPath)
+    public static void Dispatch(string in_FrameworkSettingsPath)
     {
         var OrchestratorQueueName = Config["OrchestratorQueueName"].ToString();
         

@@ -4204,11 +4204,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lauri\\RiderProjects\\Marionette Framework RPA Challenge\\Marionette-Framework-RPA-Challenge-Project\\Marionette Framework\\Marionette Framework.csproj",
+      "projectUniqueName": "C:\\Users\\lauri\\RiderProjects\\Marionette Framework\\Marionette Framework\\Marionette Framework.csproj",
       "projectName": "Marionette Framework",
-      "projectPath": "C:\\Users\\lauri\\RiderProjects\\Marionette Framework RPA Challenge\\Marionette-Framework-RPA-Challenge-Project\\Marionette Framework\\Marionette Framework.csproj",
+      "projectPath": "C:\\Users\\lauri\\RiderProjects\\Marionette Framework\\Marionette Framework\\Marionette Framework.csproj",
       "packagesPath": "C:\\Users\\lauri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lauri\\RiderProjects\\Marionette Framework RPA Challenge\\Marionette-Framework-RPA-Challenge-Project\\Marionette Framework\\obj\\",
+      "outputPath": "C:\\Users\\lauri\\RiderProjects\\Marionette Framework\\Marionette Framework\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lauri\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,15 +1,16 @@
 using Marionette.Orchestrator.Exceptions;
+using static Marionette_Framework.Framework;
 
 namespace Marionette_Framework;
 
-partial class Framework
+partial class Workflows
 {
-    public void ProcessTransaction()
+    public static void ProcessTransaction()
     {
         try
         {
             BusinessException = null;
-            Process(ref TransactionItem, Config);
+            Process(ref TransactionItem, Config, chromeBrowser);
             try
             {
                 SetTransactionStatus(BusinessException,

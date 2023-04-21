@@ -1,8 +1,10 @@
+using Marionette.WebBrowser;
+
 namespace Marionette_Framework;
 
 partial class Framework
 {
-    public void CloseAllApplications()
+    public static void CloseAllApplications(MarionetteWebBrowser chromeBrowser)
     {
         Console.WriteLine("Closing applications...");
 

@@ -2,16 +2,17 @@
 using System.Windows;
 using Marionette.Orchestrator;
 using Newtonsoft.Json;
+using static Marionette_Framework.Framework;
 
 namespace Marionette_Framework;
 
-partial class Framework
+partial class Workflows
 {
-    public void Initialization(string in_ConfigPath)
+    public static void Initialization(string in_ConfigPath)
     {
         
         SystemException = null;
-        var AssetsTable = OrchestratorConnection.ReceiveData(FrameworkSettings.AssetTableName);
+        var AssetsTable = OrchestratorConnection.ReceiveData(Framework_Settings.AssetTableName);
 
         if (Config == null)
         {
@@ -35,6 +36,6 @@ partial class Framework
                                 (Int32.Parse(Config["ConsecutiveSystemExceptions"].ToString()) + 1));
         }
 
-        InitAllApplications();
+        InitAllApplications(Config, ref chromeBrowser);
     }
 }

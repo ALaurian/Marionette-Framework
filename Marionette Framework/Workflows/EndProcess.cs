@@ -1,14 +1,15 @@
 using System.Diagnostics;
+using static Marionette_Framework.Framework;
 
 namespace Marionette_Framework;
 
-partial class Framework
+partial class Workflows
 {
-    public void EndProcess()
+    public static void EndProcess()
     {
         try
         {
-            CloseAllApplications();
+            CloseAllApplications(chromeBrowser);
         }
         catch (Exception e)
         {

@@ -8,7 +8,7 @@ namespace Marionette_Framework;
 partial class Framework
 {
 //This is a public method named SetTransactionStatus that takes in several parameters by reference
-    public void SetTransactionStatus(BusinessRuleException in_BusinessException,
+    public static void SetTransactionStatus(BusinessRuleException in_BusinessException,
         Dictionary<string, object> in_Config,
         QueueItem in_TransactionItem,
         ref int io_RetryNumber,
@@ -54,7 +54,7 @@ partial class Framework
     }
 
 
-    private void System_Exception(Dictionary<string, object> in_Config, ref QueueItem in_TransactionItem,
+    private static void System_Exception(Dictionary<string, object> in_Config, ref QueueItem in_TransactionItem,
         ref int io_RetryNumber,
         ref int io_TransactionNumber, Exception in_SystemException, ref int io_ConsecutiveSystemExceptions)
     {
@@ -99,7 +99,7 @@ partial class Framework
 
         try
         {
-            CloseAllApplications();
+            CloseAllApplications(Workflows.chromeBrowser);
         }
         catch (Exception e)
         {
@@ -115,7 +115,7 @@ partial class Framework
         }
     }
 
-    private void Business_Exception(Dictionary<string, object> in_Config, ref QueueItem in_TransactionItem)
+    private static void Business_Exception(Dictionary<string, object> in_Config, ref QueueItem in_TransactionItem)
     {
         if (in_TransactionItem != null)
         {
@@ -138,7 +138,7 @@ partial class Framework
         Console.WriteLine(in_Config["LogMessage_Success"].ToString());
     }
 
-    private void Success(Dictionary<string, object> in_Config, ref QueueItem in_TransactionItem)
+    private static void Success(Dictionary<string, object> in_Config, ref QueueItem in_TransactionItem)
     {
         if (in_TransactionItem != null)
         {

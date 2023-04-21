@@ -9,7 +9,8 @@ namespace Marionette_Framework;
 partial class Framework
 {
     // Method for getting a transaction from the orchestrator queue
-    private void GetTransaction(int in_TransactionNumber, Dictionary<string, object> in_Config, out QueueItem out_TransactionItem, out string out_TransactionID)
+    public static void GetTransaction(int in_TransactionNumber, Dictionary<string, object> in_Config,
+        out QueueItem out_TransactionItem, out string out_TransactionID, Orchestrator OrchestratorConnection)
     {
         // Log message to console
         Console.WriteLine("Get the transaction item.");
@@ -34,9 +35,12 @@ partial class Framework
             try
             {
                 // Fetch queue items in order of priority
-                var highPriorityItems = queueItems.Where(q => q.Priority == QueueItemPriority.High && q.Status == QueueItemStatus.New);
-                var mediumPriorityItems = queueItems.Where(q => q.Priority == QueueItemPriority.Medium && q.Status == QueueItemStatus.New);
-                var lowPriorityItems = queueItems.Where(q => q.Priority == QueueItemPriority.Low && q.Status == QueueItemStatus.New);
+                var highPriorityItems = queueItems.Where(q =>
+                    q.Priority == QueueItemPriority.High && q.Status == QueueItemStatus.New);
+                var mediumPriorityItems = queueItems.Where(q =>
+                    q.Priority == QueueItemPriority.Medium && q.Status == QueueItemStatus.New);
+                var lowPriorityItems = queueItems.Where(q =>
+                    q.Priority == QueueItemPriority.Low && q.Status == QueueItemStatus.New);
 
                 // Concatenate the queue items in order of priority
                 var orderedQueueItems = highPriorityItems.Concat(mediumPriorityItems).Concat(lowPriorityItems);
