@@ -30,7 +30,7 @@ namespace Marionette_Framework
         
         public static FrameworkSettings Framework_Settings;
 
-        public static int RetryNumber = 0;
+        public static int RetryNumber = 3;
         
         //Dispatcher input DataTable
         public static DataTable _dispatcherInput;

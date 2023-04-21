@@ -18,7 +18,7 @@ static partial class Framework
         RPAChallenge(in_TransactionItem, in_chromeBrowser);
     }
 
-    public static void RPAChallenge(QueueItem currentTransaction, MarionetteWebBrowser chromeBrowser)
+    private static void RPAChallenge(QueueItem currentTransaction, MarionetteWebBrowser chromeBrowser)
     {
         if (startButtonPressed == false)
         {

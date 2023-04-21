@@ -51,6 +51,9 @@ static partial class Framework
                 io_ConsecutiveSystemExceptions = 0;
                 break;
         }
+        
+        in_TransactionItem.LastProcessingOn = DateTime.Now.ToString();
+        in_TransactionItem.Progress = "Finished.";
     }
 
 

@@ -54,7 +54,7 @@
           "build/_._": {}
         }
       },
-      "Marionette/1.0.7.64": {
+      "Marionette/1.0.7.70": {
         "type": "package",
         "dependencies": {
           "FlaUI.Core": "4.0.0",
@@ -1207,15 +1207,15 @@
         "tools/install.ps1"
       ]
     },
-    "Marionette/1.0.7.64": {
-      "sha512": "751ZP1MzfSHLP8rvMu7YSgb5gcSIuYFQ6QjOVwg8/TGSEMBdVctNTkQdcAlPWbFy0pUN7pXRMRJ4B35Qt2yUxw==",
+    "Marionette/1.0.7.70": {
+      "sha512": "g42BYhQLnlhkCDHpsYVcxENu71WDDu/juycUI/qBfoc3grzUcl/VYLUvbr0Q7issGtxhb/YvPFEl9ZqgZPwlnA==",
       "type": "package",
-      "path": "marionette/1.0.7.64",
+      "path": "marionette/1.0.7.70",
       "files": [
         ".nupkg.metadata",
         "lib/net6.0-windows10.0.17763/Marionette.dll",
         "lib/net6.0-windows10.0.17763/Marionette.runtimeconfig.json",
-        "marionette.1.0.7.64.nupkg.sha512",
+        "marionette.1.0.7.70.nupkg.sha512",
         "marionette.nuspec"
       ]
     },
@@ -4191,7 +4191,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0-windows10.0.17763": [
-      "Marionette >= 1.0.7.64",
+      "Marionette >= 1.0.7.70",
       "MySqlConnector >= 2.3.0-beta.1",
       "Newtonsoft.Json >= 13.0.3",
       "PresentationFramework >= 4.6.0",
@@ -4240,7 +4240,7 @@
         "dependencies": {
           "Marionette": {
             "target": "Package",
-            "version": "[1.0.7.64, )"
+            "version": "[1.0.7.70, )"
           },
           "MySqlConnector": {
             "target": "Package",

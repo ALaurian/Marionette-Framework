@@ -3,6 +3,7 @@ using System.Windows.Controls;
 using System.Xml.Linq;
 using FlaUI.Core;
 using Marionette.Excel_Scope;
+using Marionette.Orchestrator;
 using Marionette.WebBrowser;
 using Marionette.WinEngine;
 using Newtonsoft.Json;
@@ -27,8 +28,8 @@ class Program
         //Dispatcher
         if (dispatched == false)
         {
-            Dispatch();
-            dispatched = true;
+            OrchestratorConnection.ClearQueue(Config["OrchestratorQueueName"].ToString());
+            dispatched = Dispatch();
         }
         
         if (Workflows.SystemException == null)
@@ -72,6 +73,7 @@ class Program
         }
 
 
+        
         //Closes the Orchestrator connection
         OrchestratorConnection.CloseConnection();
     }

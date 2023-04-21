@@ -36,6 +36,6 @@ static partial class Workflows
                                 (Int32.Parse(Config["ConsecutiveSystemExceptions"].ToString()) + 1));
         }
 
-        InitAllApplications(Config, ref chromeBrowser);
+        InitAllApplications(Config["rpaChallengeURL"].ToString(), ref chromeBrowser);
     }
 }

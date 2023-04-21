@@ -9,7 +9,7 @@ namespace Marionette_Framework;
 static partial class Workflows
 {
     //This method Dispatches data from a DT into the Queue using a Dispatcher instance.
-    public static void Dispatch()
+    public static bool Dispatch()
     {
         var OrchestratorQueueName = Config["OrchestratorQueueName"].ToString();
         
@@ -26,7 +26,7 @@ static partial class Workflows
         try
         {
             //Create a new instance of the Dispatcher class with the given parameters.
-            var dispatcher = new Dispatcher(
+            new Dispatcher(
                 _dispatcherInput,
                 OrchestratorConnection,
                 OrchestratorQueueName,
@@ -35,8 +35,9 @@ static partial class Workflows
         catch (Exception e)
         {
             Console.WriteLine($"Dispatcher added no new queue items into {OrchestratorQueueName} queue.");
+            return false;
         }
 
-
+        return true;
     }
 }

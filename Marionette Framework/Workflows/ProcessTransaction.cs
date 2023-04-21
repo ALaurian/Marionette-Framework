@@ -62,7 +62,6 @@ static partial class Workflows
             }
         }
         
-        TransactionItem.LastProcessingOn = DateTime.Now.ToString();
-        TransactionItem.Progress = "Finished.";
+        
     }
 }

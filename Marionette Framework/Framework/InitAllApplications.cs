@@ -9,11 +9,15 @@ namespace Marionette_Framework;
 static partial class Framework
 {
     
-    public static void InitAllApplications(Dictionary<string, object> in_Config, ref MarionetteWebBrowser io_chromeBrowser)
+    public static void InitAllApplications(string url, ref MarionetteWebBrowser io_chromeBrowser)
     {
         Console.WriteLine("Opening applications...");
 
-        io_chromeBrowser = new MarionetteWebBrowser(BrowserType.Chrome);
-        io_chromeBrowser.Navigate(in_Config["rpaChallengeURL"].ToString(), io_chromeBrowser.GetPageByIndex(0));
+        if (io_chromeBrowser == null)
+        {
+            io_chromeBrowser = new MarionetteWebBrowser(BrowserType.Chrome);
+            io_chromeBrowser.Navigate(url, io_chromeBrowser.GetPageByIndex(0));
+        }
+        
     }
 }
