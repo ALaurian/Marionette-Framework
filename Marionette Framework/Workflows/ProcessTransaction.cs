@@ -3,7 +3,7 @@ using static Marionette_Framework.Framework;
 
 namespace Marionette_Framework;
 
-partial class Workflows
+static partial class Workflows
 {
     public static void ProcessTransaction()
     {

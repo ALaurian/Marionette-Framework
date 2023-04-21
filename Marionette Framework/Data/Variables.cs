@@ -5,7 +5,7 @@ using Marionette.WebBrowser;
 
 namespace Marionette_Framework
 {
-    partial class Workflows
+    static partial class Workflows
     {
         //Handles SystemExceptions
         public static Exception SystemException;

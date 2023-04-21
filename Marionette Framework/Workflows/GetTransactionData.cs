@@ -2,7 +2,7 @@
 
 namespace Marionette_Framework;
 
-partial class Workflows
+static partial class Workflows
 {
     public static void GetTransactionData()
     {
