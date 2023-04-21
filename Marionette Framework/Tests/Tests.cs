@@ -1,5 +1,3 @@
-using NUnit.Framework;
-
 namespace Marionette_Framework.Tests;
 
 public partial class Tests

@@ -1,13 +1,4 @@
-﻿using System.Data;
-using System.Windows.Controls;
-using System.Xml.Linq;
-using FlaUI.Core;
-using Marionette.Excel_Scope;
-using Marionette.Orchestrator;
-using Marionette.WebBrowser;
-using Marionette.WinEngine;
-using Newtonsoft.Json;
-using static Marionette_Framework.Framework;
+﻿using static Marionette_Framework.Framework;
 using static Marionette_Framework.Workflows;
 
 namespace Marionette_Framework;
@@ -28,7 +19,6 @@ class Program
         //Dispatcher
         if (dispatched == false)
         {
-            OrchestratorConnection.ClearQueue(Config["OrchestratorQueueName"].ToString());
             dispatched = Dispatch();
         }
         

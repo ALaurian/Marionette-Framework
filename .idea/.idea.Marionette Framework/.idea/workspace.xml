@@ -9,448 +9,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16ea34b5-6452-446b-8503-06d08ef70e3d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/node/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/node/darwin-arm64/node" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/node/darwin-arm64/playwright.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/node/darwin-x64/node" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/node/darwin-x64/playwright.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/node/linux-arm64/node" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/node/linux-arm64/playwright.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/node/linux-x64/node" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/node/linux-x64/playwright.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/node/win32_x64/node.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/node/win32_x64/playwright.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/ThirdPartyNotices.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/api.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/bin/PrintDeps.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/bin/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/bin/install_media_pack.ps1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/bin/reinstall_chrome_beta_linux.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/bin/reinstall_chrome_beta_mac.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/bin/reinstall_chrome_beta_win.ps1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/bin/reinstall_chrome_stable_linux.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/bin/reinstall_chrome_stable_mac.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/bin/reinstall_chrome_stable_win.ps1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/bin/reinstall_msedge_beta_linux.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/bin/reinstall_msedge_beta_mac.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/bin/reinstall_msedge_beta_win.ps1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/bin/reinstall_msedge_dev_linux.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/bin/reinstall_msedge_dev_mac.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/bin/reinstall_msedge_dev_win.ps1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/bin/reinstall_msedge_stable_linux.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/bin/reinstall_msedge_stable_mac.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/bin/reinstall_msedge_stable_win.ps1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/browsers.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/cli.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/index.mjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/androidServerImpl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/browserServerImpl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/cli/cli.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/cli/driver.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/client/accessibility.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/client/android.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/client/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/client/artifact.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/client/browser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/client/browserContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/client/browserType.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/client/cdpSession.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/client/channelOwner.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/client/clientHelper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/client/clientInstrumentation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/client/connection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/client/consoleMessage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/client/coverage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/client/dialog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/client/download.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/client/electron.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/client/elementHandle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/client/events.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/client/fetch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/client/fileChooser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/client/frame.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/client/harRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/client/input.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/client/joiningEventEmitter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/client/jsHandle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/client/jsonPipe.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/client/localUtils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/client/locator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/client/network.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/client/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/client/playwright.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/client/selectors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/client/stream.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/client/tracing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/client/types.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/client/video.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/client/waiter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/client/worker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/client/writableStream.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/common/debugLogger.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/common/errors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/common/socksProxy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/common/timeoutSettings.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/common/types.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/generated/consoleApiSource.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/generated/injectedScriptSource.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/generated/recorderSource.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/generated/utilityScriptSource.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/image_tools/colorUtils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/image_tools/compare.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/image_tools/imageChannel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/image_tools/stats.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/inProcessFactory.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/inprocess.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/outofprocess.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/protocol/debug.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/protocol/serializers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/protocol/transport.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/protocol/validator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/protocol/validatorPrimitives.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/remote/playwrightConnection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/remote/playwrightServer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/accessibility.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/android/android.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/android/backendAdb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/artifact.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/browser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/browserContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/browserType.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/chromium/appIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/chromium/chromium.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/chromium/chromiumSwitches.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/chromium/crAccessibility.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/chromium/crApp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/chromium/crBrowser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/chromium/crConnection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/chromium/crCoverage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/chromium/crDevTools.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/chromium/crDragDrop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/chromium/crExecutionContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/chromium/crInput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/chromium/crNetworkManager.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/chromium/crPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/chromium/crPdf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/chromium/crProtocolHelper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/chromium/crServiceWorker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/chromium/defaultFontFamilies.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/chromium/videoRecorder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/console.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/cookieStore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/debugController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/debugger.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/deviceDescriptors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/deviceDescriptorsSource.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/dialog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/dispatchers/androidDispatcher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/dispatchers/artifactDispatcher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/dispatchers/browserContextDispatcher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/dispatchers/browserDispatcher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/dispatchers/browserTypeDispatcher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/dispatchers/cdpSessionDispatcher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/dispatchers/consoleMessageDispatcher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/dispatchers/debugControllerDispatcher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/dispatchers/dialogDispatcher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/dispatchers/dispatcher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/dispatchers/electronDispatcher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/dispatchers/elementHandlerDispatcher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/dispatchers/frameDispatcher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/dispatchers/jsHandleDispatcher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/dispatchers/jsonPipeDispatcher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/dispatchers/localUtilsDispatcher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/dispatchers/networkDispatchers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/dispatchers/pageDispatcher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/dispatchers/playwrightDispatcher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/dispatchers/selectorsDispatcher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/dispatchers/streamDispatcher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/dispatchers/tracingDispatcher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/dispatchers/writableStreamDispatcher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/dom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/download.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/electron/electron.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/electron/loader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/fetch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/fileChooser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/firefox/ffAccessibility.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/firefox/ffBrowser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/firefox/ffConnection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/firefox/ffExecutionContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/firefox/ffInput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/firefox/ffNetworkManager.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/firefox/ffPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/firefox/firefox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/formData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/frameSelectors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/frames.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/har/harRecorder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/har/harTracer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/helper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/input.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/instrumentation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/isomorphic/utilityScriptSerializers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/javascript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/macEditingCommands.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/network.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/pipeTransport.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/playwright.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/progress.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/protocolError.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/recorder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/recorder/codeGenerator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/recorder/csharp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/recorder/java.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/recorder/javascript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/recorder/language.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/recorder/python.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/recorder/recorderActions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/recorder/recorderApp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/recorder/recorderUtils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/recorder/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/registry/browserFetcher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/registry/dependencies.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/registry/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/registry/nativeDeps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/registry/oopDownloadMain.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/screenshotter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/selectors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/socksInterceptor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/trace/recorder/snapshotter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/trace/recorder/snapshotterInjected.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/trace/recorder/tracing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/trace/test/inMemorySnapshotter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/trace/viewer/traceViewer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/transport.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/types.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/usKeyboardLayout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/webkit/webkit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/webkit/wkAccessibility.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/webkit/wkBrowser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/webkit/wkConnection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/webkit/wkExecutionContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/webkit/wkInput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/webkit/wkInterceptableRequest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/webkit/wkPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/webkit/wkProvisionalPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/server/webkit/wkWorkers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/third_party/diff_match_patch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/third_party/pixelmatch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/utils/ascii.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/utils/comparators.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/utils/crypto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/utils/debug.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/utils/env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/utils/eventsHelper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/utils/fileUtils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/utils/glob.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/utils/happy-eyeballs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/utils/headers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/utils/hostPlatform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/utils/httpServer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/utils/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/utils/isomorphic/cssParser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/utils/isomorphic/cssTokenizer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/utils/isomorphic/locatorGenerators.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/utils/isomorphic/locatorParser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/utils/isomorphic/locatorUtils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/utils/isomorphic/selectorParser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/utils/isomorphic/stringUtils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/utils/isomorphic/traceUtils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/utils/linuxUtils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/utils/manualPromise.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/utils/mimeType.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/utils/multimap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/utils/network.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/utils/processLauncher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/utils/processLauncherCleanupEntrypoint.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/utils/profiler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/utils/rtti.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/utils/spawnAsync.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/utils/stackTrace.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/utils/task.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/utils/time.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/utils/timeoutRunner.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/utils/traceUtils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/utils/userAgent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/utils/zipFile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/utils/zones.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/utilsBundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/utilsBundleImpl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/webpack/htmlReport/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/webpack/recorder/assets/codeMirrorModule-5d0f417c.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/webpack/recorder/assets/codeMirrorModule-7cdf3090.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/webpack/recorder/assets/codicon-dcd00fb4.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/webpack/recorder/assets/index-26e56fd7.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/webpack/recorder/assets/index-aa88d5c3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/webpack/recorder/icon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/webpack/recorder/icon-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/webpack/recorder/icon-256x256.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/webpack/recorder/icon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/webpack/recorder/icon-384x384.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/webpack/recorder/icon-512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/webpack/recorder/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/webpack/traceViewer/assets/codeMirrorModule-3678cec2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/webpack/traceViewer/assets/workbench-b198d476.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/webpack/traceViewer/assets/xtermModule-0fb1e5c9.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/webpack/traceViewer/codeMirrorModule.5d0f417c.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/webpack/traceViewer/codicon.dcd00fb4.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/webpack/traceViewer/icon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/webpack/traceViewer/icon-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/webpack/traceViewer/icon-256x256.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/webpack/traceViewer/icon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/webpack/traceViewer/icon-384x384.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/webpack/traceViewer/icon-512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/webpack/traceViewer/index.a18c30b0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/webpack/traceViewer/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/webpack/traceViewer/popout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/webpack/traceViewer/sw.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/webpack/traceViewer/watch.2eaed85c.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/webpack/traceViewer/watch.575ca3b3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/webpack/traceViewer/watch.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/webpack/traceViewer/workbench.abfdb308.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/webpack/traceViewer/xtermModule.6428296b.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/zipBundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/lib/zipBundleImpl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/protocol.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/types/protocol.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/types/structs.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/.playwright/package/types/types.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/Data/Config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/Data/FrameworkSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/FlaUI.Core.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/FlaUI.UIA3.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/Interop.UIAutomationClient.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/Marionette Framework.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/Marionette Framework.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/Marionette Framework.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/Marionette Framework.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/Marionette Framework.runtimeconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/Marionette.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/MarionetteLog.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/Microsoft.Bcl.AsyncInterfaces.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/Microsoft.Extensions.Logging.Abstractions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/Microsoft.Office.Interop.Excel.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/Microsoft.Playwright.NUnit.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/Microsoft.Playwright.TestAdapter.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/Microsoft.Playwright.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/Microsoft.TestPlatform.CommunicationUtilities.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/Microsoft.TestPlatform.CoreUtilities.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/Microsoft.TestPlatform.CrossPlatEngine.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/Microsoft.TestPlatform.PlatformAbstractions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/Microsoft.TestPlatform.Utilities.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/Microsoft.VisualStudio.CodeCoverage.Shim.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/Microsoft.VisualStudio.TestPlatform.Common.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/Microsoft.Windows.SDK.NET.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/MoreLinq.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/MySqlConnector.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/NuGet.Frameworks.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/Polly.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/Serilog.Sinks.Console.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/Serilog.Sinks.File.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/Serilog.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/System.Management.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/System.Text.Encodings.Web.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/System.Text.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/WinRT.Runtime.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/cs/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/cs/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/cs/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/cs/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/cs/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/de/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/de/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/de/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/de/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/de/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/es/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/es/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/es/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/es/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/es/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/fr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/fr/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/fr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/fr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/fr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/it/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/it/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/it/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/it/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/it/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/ja/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/ja/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/ja/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/ja/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/ja/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/ko/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/ko/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/ko/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/ko/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/ko/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/nunit.framework.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/pl/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/pl/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/pl/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/pl/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/pl/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/playwright.ps1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/pt-BR/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/pt-BR/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/pt-BR/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/pt-BR/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/pt-BR/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/ru/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/ru/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/ru/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/ru/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/ru/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/runtimes/win/lib/netcoreapp2.0/System.Management.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/testhost.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/tr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/tr/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/tr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/tr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/tr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/zh-Hans/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/zh-Hans/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/zh-Hans/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/zh-Hans/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/zh-Hans/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/zh-Hant/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marionette Framework/bin/Debug/net6.0-windows10.0.17763/zh-Hant/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Marionette Framework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Marionette Framework/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/Data/Variables.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Data/Variables.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marionette Framework/Dispatcher/Dispatcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Dispatcher/Dispatcher.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Marionette Framework/Framework/InitAllApplications.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Framework/InitAllApplications.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/Framework/Process.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Framework/Process.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marionette Framework/Framework/InitFrameworkSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Framework/InitFrameworkSettings.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Marionette Framework/Framework/SetTransactionStatus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Framework/SetTransactionStatus.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Marionette Framework/Main.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Main.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/Marionette Framework.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Marionette Framework.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marionette Framework/Tests/GetTransactionDataTestCase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Tests/GetTransactionDataTestCase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marionette Framework/Tests/Tests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Tests/Tests.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Marionette Framework/Workflows/Dispatch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Workflows/Dispatch.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Marionette Framework/Workflows/Initialization.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Workflows/Initialization.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/Workflows/ProcessTransaction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Workflows/ProcessTransaction.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/Marionette Framework.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/Marionette Framework.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/Marionette Framework.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/Marionette Framework.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/Marionette Framework.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/Marionette Framework.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/Marionette Framework.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/Marionette Framework.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/Marionette Framework.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/Marionette Framework.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/ref/Marionette Framework.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/ref/Marionette Framework.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/refint/Marionette Framework.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/refint/Marionette Framework.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/Marionette Framework.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/Marionette Framework.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -500,31 +68,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.81632656&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;StaticFramework&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "XThreadsFramesViewSplitterKey": "0.81632656",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\lauri\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\lauri\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\lauri\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\lauri\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache",
+      "C:\\Users\\lauri\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache",
+      "C:\\Users\\lauri\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Project.Marionette Framework">
     <configuration name="Publish Marionette Framework to folder" type="DotNetFolderPublish" factoryName="Publish to folder">
       <riderPublish configuration="Release" platform="Any CPU" produce_single_file="true" runtime="win-x64" target_folder="$PROJECT_DIR$/Marionette Framework/bin/Release/net6.0-windows10.0.17763/win-x64/publish" target_framework="net6.0-windows10.0.17763" uuid_high="-3661167935788398123" uuid_low="-7379605865045703918" />
@@ -595,6 +163,7 @@
       <workItem from="1681738583911" duration="3402000" />
       <workItem from="1682061785236" duration="936000" />
       <workItem from="1682063163402" duration="1952000" />
+      <workItem from="1682077003023" duration="132000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit, untested code.">
       <created>1681238951970</created>

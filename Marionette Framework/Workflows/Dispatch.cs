@@ -1,6 +1,5 @@
 //This namespace is for the Marionette Framework.
 
-using System.Data;
 using Marionette.Excel_Scope;
 
 namespace Marionette_Framework;

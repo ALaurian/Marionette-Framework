@@ -1,7 +1,6 @@
 //This code initializes framework settings by reading JSON file and creating an OrchestratorConnection object
 using Marionette.Orchestrator; //importing namespace Marionette.Orchestrator
 using Newtonsoft.Json;
-using static Marionette_Framework.FrameworkSettings;
 using static Marionette_Framework.Workflows; //importing Newtonsoft.Json namespace
 
 namespace Marionette_Framework //defining a namespace called Marionette_Framework

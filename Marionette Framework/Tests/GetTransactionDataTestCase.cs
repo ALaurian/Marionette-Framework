@@ -1,4 +1,3 @@
-using System.Windows.Controls;
 using static Marionette_Framework.Workflows;
 
 namespace Marionette_Framework.Tests;
