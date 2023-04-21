@@ -1,8 +1,10 @@
-﻿namespace Marionette_Framework;
+﻿using static Marionette_Framework.Framework;
 
-partial class Framework
+namespace Marionette_Framework;
+
+static partial class Workflows
 {
-    public void GetTransactionData()
+    public static void GetTransactionData()
     {
         //check stop signal
         if (ShouldStop)
@@ -12,7 +14,7 @@ partial class Framework
         }
         else
         {
-            GetTransaction(TransactionNumber, Config, out TransactionItem, out TransactionID);
+            GetTransaction(TransactionNumber, Config, out TransactionItem, out TransactionID, OrchestratorConnection);
         }
     }
 }

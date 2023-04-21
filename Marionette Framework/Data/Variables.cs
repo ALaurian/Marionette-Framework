@@ -5,38 +5,38 @@ using Marionette.WebBrowser;
 
 namespace Marionette_Framework
 {
-    partial class Framework
+    static partial class Workflows
     {
         //Handles SystemExceptions
-        public Exception SystemException;
+        public static Exception SystemException;
         //Handles BusinessRuleExceptions, this should always be in a throw.
-        public BusinessRuleException BusinessException;
+        public static BusinessRuleException BusinessException;
 
         //The config dictionary, contains all the settings
-        public Dictionary<string, object> Config;
+        public static Dictionary<string, object> Config;
 
         //The orchestrator connection to the DB, it has a method that lets you fetch any Table from the DB.
-        public Orchestrator OrchestratorConnection;
+        public static Orchestrator OrchestratorConnection;
 
 
-        public int ConsecutiveSystemExceptions = 0;
+        public static int ConsecutiveSystemExceptions = 0;
         
         //The stopper for the robot, you have to write your own logic for this for now.
-        public bool ShouldStop = false;
+        public static bool ShouldStop = false;
         
-        public int TransactionNumber = 0;
-        public QueueItem TransactionItem;
-        private string TransactionID;
+        public static int TransactionNumber = 0;
+        public static QueueItem TransactionItem;
+        private static string TransactionID;
         
-        public FrameworkSettings FrameworkSettings;
+        public static FrameworkSettings Framework_Settings;
 
-        public int RetryNumber = 0;
+        public static int RetryNumber = 3;
         
         //Dispatcher input DataTable
-        public DataTable _dispatcherInput;
+        public static DataTable _dispatcherInput;
         
         //WebBrowser
-        public MarionetteWebBrowser chromeBrowser;
+        public static MarionetteWebBrowser chromeBrowser;
 
     }
 }

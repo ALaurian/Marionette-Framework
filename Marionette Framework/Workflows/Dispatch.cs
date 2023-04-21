@@ -6,10 +6,10 @@ using Marionette.Excel_Scope;
 namespace Marionette_Framework;
 
 //This is a partial class declaration for the Framework class.
-partial class Framework
+static partial class Workflows
 {
     //This method Dispatches data from a DT into the Queue using a Dispatcher instance.
-    public void Dispatch(string in_FrameworkSettingsPath)
+    public static bool Dispatch()
     {
         var OrchestratorQueueName = Config["OrchestratorQueueName"].ToString();
         
@@ -26,18 +26,18 @@ partial class Framework
         try
         {
             //Create a new instance of the Dispatcher class with the given parameters.
-            var dispatcher = new Dispatcher(
+            new Dispatcher(
                 _dispatcherInput,
                 OrchestratorConnection,
                 OrchestratorQueueName,
-                int.Parse(Config["MaxRetryNumber"].ToString()),
-                in_FrameworkSettingsPath);
+                int.Parse(Config["MaxRetryNumber"].ToString()));
         }
         catch (Exception e)
         {
             Console.WriteLine($"Dispatcher added no new queue items into {OrchestratorQueueName} queue.");
+            return false;
         }
 
-
+        return true;
     }
 }

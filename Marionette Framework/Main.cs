@@ -1,10 +1,14 @@
 ﻿using System.Data;
+using System.Windows.Controls;
 using System.Xml.Linq;
 using FlaUI.Core;
 using Marionette.Excel_Scope;
+using Marionette.Orchestrator;
 using Marionette.WebBrowser;
 using Marionette.WinEngine;
 using Newtonsoft.Json;
+using static Marionette_Framework.Framework;
+using static Marionette_Framework.Workflows;
 
 namespace Marionette_Framework;
 
@@ -14,50 +18,48 @@ class Program
     
     static void Main(string[] args)
     {
-        var framework = new Framework();
-
         //Initializes settings from the FrameworkSettings.json
-        framework.InitFrameworkSettings("Data/FrameworkSettings.json");
+        InitFrameworkSettings("Data/FrameworkSettings.json");
         
         Initialization:
         //Initializes settings from the Config.json
-        framework.Initialization("Data/Config.json");
+        Initialization("Data/Config.json");
 
         //Dispatcher
         if (dispatched == false)
         {
-            framework.Dispatch("Data/FrameworkSettings.json");
-            dispatched = true;
+            OrchestratorConnection.ClearQueue(Config["OrchestratorQueueName"].ToString());
+            dispatched = Dispatch();
         }
         
-        if (framework.SystemException == null)
+        if (Workflows.SystemException == null)
         {
             GetTransactionData:
-            framework.GetTransactionData();
+            GetTransactionData();
 
-            if (framework.TransactionItem == null)
+            if (TransactionItem == null)
             {
                 Console.WriteLine("Process finished due to no more transaction data");
-                framework.EndProcess();
+                EndProcess();
             }
             else
             {
                 Console.WriteLine(
-                    framework.Config["LogMessage_GetTransactionData"] + framework.TransactionNumber.ToString());
+                    Config["LogMessage_GetTransactionData"] + TransactionNumber.ToString());
 
-                framework.ProcessTransaction();
+                ProcessTransaction();
 
-                if (framework.SystemException == null && framework.BusinessException == null)
+                if (Workflows.SystemException == null && BusinessException == null)
                 {
                     goto GetTransactionData;
                 }
 
-                if (framework.SystemException != null)
+                if (Workflows.SystemException != null)
                 {
                     goto Initialization;
                 }
 
-                if (framework.BusinessException != null)
+                if (BusinessException != null)
                 {
                     goto GetTransactionData;
                 }
@@ -65,13 +67,14 @@ class Program
         }
         else
         {
-            Console.WriteLine("System exception at initialization: " + framework.SystemException.Message +
-                              " at Source: " + framework.SystemException.Source);
-            framework.CloseAllApplications();
+            Console.WriteLine("System exception at initialization: " + Workflows.SystemException.Message +
+                              " at Source: " + Workflows.SystemException.Source);
+            CloseAllApplications(chromeBrowser);
         }
 
 
+        
         //Closes the Orchestrator connection
-        framework.OrchestratorConnection.CloseConnection();
+        OrchestratorConnection.CloseConnection();
     }
 }

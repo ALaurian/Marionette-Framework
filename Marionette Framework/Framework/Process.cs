@@ -4,20 +4,21 @@ using Marionette.WebBrowser;
 
 namespace Marionette_Framework;
 
-partial class Framework
+static partial class Framework
 {
-    private bool startButtonPressed = false;
+    private static bool startButtonPressed = false;
 
-    public void Process(ref QueueItem in_TransactionItem, Dictionary<string, object> in_Config)
+    public static void Process(ref QueueItem in_TransactionItem, Dictionary<string, object> in_Config,
+        MarionetteWebBrowser in_chromeBrowser)
     {
         Console.WriteLine("Started Process");
         in_TransactionItem.Status = QueueItemStatus.InProgress;
         in_TransactionItem.StartTransactionTime = DateTime.Now.ToString();
         //Invoke steps of processs
-        RPAChallenge(in_TransactionItem);
+        RPAChallenge(in_TransactionItem, in_chromeBrowser);
     }
 
-    public void RPAChallenge(QueueItem currentTransaction)
+    private static void RPAChallenge(QueueItem currentTransaction, MarionetteWebBrowser chromeBrowser)
     {
         if (startButtonPressed == false)
         {
@@ -49,6 +50,5 @@ partial class Framework
         chromeBrowser.SetText("//label[normalize-space()='Phone Number']/following-sibling::*[1]", PhoneNumber);
 
         chromeBrowser.Click("(//input[@value='Submit'])[1]");
-        
     }
 }
