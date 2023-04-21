@@ -6,7 +6,7 @@ using BrowserType = Marionette.WebBrowser.BrowserType;
 
 namespace Marionette_Framework;
 
-partial class Framework
+static partial class Framework
 {
     
     public static void InitAllApplications(Dictionary<string, object> in_Config, ref MarionetteWebBrowser io_chromeBrowser)

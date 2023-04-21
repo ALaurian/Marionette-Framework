@@ -1,6 +1,6 @@
 namespace Marionette_Framework; 
 
-partial class Framework 
+static partial class Framework 
 {
     private static void RetryCurrentTransaction(Dictionary<string, object> in_Config,
         ref int io_RetryNumber,

@@ -4,7 +4,7 @@ using Marionette.WebBrowser;
 
 namespace Marionette_Framework;
 
-partial class Framework
+static partial class Framework
 {
     private static bool startButtonPressed = false;
 

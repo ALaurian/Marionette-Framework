@@ -8,7 +8,6 @@ public partial class Tests
     public static void GetTransactionDataTestCase()
     {
         Console.WriteLine("GetTransactionDataTestCase started.");
-        var framework = new Framework();
 
         //Initializes settings from the FrameworkSettings.json
         Framework.InitFrameworkSettings("Data/FrameworkSettings.json");

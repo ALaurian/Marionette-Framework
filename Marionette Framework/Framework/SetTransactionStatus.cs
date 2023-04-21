@@ -5,7 +5,7 @@ using Newtonsoft.Json;
 
 namespace Marionette_Framework;
 
-partial class Framework
+static partial class Framework
 {
 //This is a public method named SetTransactionStatus that takes in several parameters by reference
     public static void SetTransactionStatus(BusinessRuleException in_BusinessException,

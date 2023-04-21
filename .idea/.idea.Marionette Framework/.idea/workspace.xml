@@ -10,17 +10,16 @@
   <component name="ChangeListManager">
     <list default="true" id="16ea34b5-6452-446b-8503-06d08ef70e3d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Marionette Framework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Marionette Framework/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/Data/Variables.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Data/Variables.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/Dispatcher/Dispatch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Dispatcher/Dispatch.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/Workflows/EndProcess.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Workflows/EndProcess.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/Workflows/GetTransactionData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Workflows/GetTransactionData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/Workflows/Initialization.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Workflows/Initialization.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/Workflows/ProcessTransaction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Workflows/ProcessTransaction.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/Marionette Framework.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/Marionette Framework.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/Marionette Framework.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/Marionette Framework.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/ref/Marionette Framework.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/ref/Marionette Framework.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/refint/Marionette Framework.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/Debug/net6.0-windows10.0.17763/refint/Marionette Framework.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marionette Framework/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marionette Framework/Framework/CloseAllApplications.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Framework/CloseAllApplications.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marionette Framework/Framework/GetTransaction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Framework/GetTransaction.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marionette Framework/Framework/InitAllApplications.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Framework/InitAllApplications.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marionette Framework/Framework/InitAllSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Framework/InitAllSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marionette Framework/Framework/InitFrameworkSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Framework/InitFrameworkSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marionette Framework/Framework/KillAllProcesses.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Framework/KillAllProcesses.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marionette Framework/Framework/Process.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Framework/Process.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marionette Framework/Framework/RetryCurrentTransaction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Framework/RetryCurrentTransaction.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marionette Framework/Framework/SetTransactionStatus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Framework/SetTransactionStatus.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marionette Framework/Tests/GetTransactionDataTestCase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marionette Framework/Tests/GetTransactionDataTestCase.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

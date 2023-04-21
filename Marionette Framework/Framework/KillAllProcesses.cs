@@ -1,6 +1,6 @@
 namespace Marionette_Framework;
 
-partial class Framework
+static partial class Framework
 {
     public static void KillAllProcesses()
     {

@@ -6,7 +6,7 @@ using static Marionette_Framework.Workflows; //importing Newtonsoft.Json namespa
 
 namespace Marionette_Framework //defining a namespace called Marionette_Framework
 {
-    partial class Framework //defining a class called Framework
+    static partial class Framework //defining a class called Framework
     {
         public static void InitFrameworkSettings(string in_FrameworkSettingsPath) //defining a public method called InitFrameworkSettings that takes a string argument called in_FrameworkSettingsPath
         {

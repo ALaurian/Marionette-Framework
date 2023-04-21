@@ -6,7 +6,7 @@ using Marionette.Orchestrator.Enums;
 namespace Marionette_Framework;
 
 // Class for the Framework
-partial class Framework
+static partial class Framework
 {
     // Method for getting a transaction from the orchestrator queue
     public static void GetTransaction(int in_TransactionNumber, Dictionary<string, object> in_Config,
