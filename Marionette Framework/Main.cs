@@ -27,7 +27,7 @@ class Program
         //Dispatcher
         if (dispatched == false)
         {
-            Dispatch("Data/FrameworkSettings.json");
+            Dispatch();
             dispatched = true;
         }
         

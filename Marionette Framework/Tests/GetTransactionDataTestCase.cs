@@ -18,7 +18,7 @@ public partial class Tests
         //Dispatcher
         if (dispatched == false)
         {
-            Dispatch("Data/FrameworkSettings.json");
+            Dispatch();
             dispatched = true;
         }
 

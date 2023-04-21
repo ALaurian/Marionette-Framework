@@ -13,7 +13,7 @@ public class Dispatcher
 {
     // Constructor with parameters
     public Dispatcher(DataTable in_InputDT, Orchestrator in_OrchestratorConnection, string in_QueueName,
-        int in_RetryNo, string in_FrameworkSettingsPath)
+        int in_RetryNo)
     {
         // Check if the specified queue exists in the Orchestrator, if not, create one.
         if (!in_OrchestratorConnection.TableExists(in_QueueName))

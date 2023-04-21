@@ -9,7 +9,7 @@ namespace Marionette_Framework;
 static partial class Workflows
 {
     //This method Dispatches data from a DT into the Queue using a Dispatcher instance.
-    public static void Dispatch(string in_FrameworkSettingsPath)
+    public static void Dispatch()
     {
         var OrchestratorQueueName = Config["OrchestratorQueueName"].ToString();
         
@@ -30,8 +30,7 @@ static partial class Workflows
                 _dispatcherInput,
                 OrchestratorConnection,
                 OrchestratorQueueName,
-                int.Parse(Config["MaxRetryNumber"].ToString()),
-                in_FrameworkSettingsPath);
+                int.Parse(Config["MaxRetryNumber"].ToString()));
         }
         catch (Exception e)
         {
